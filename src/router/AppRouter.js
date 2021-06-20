@@ -2,6 +2,9 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import HomePage from '../pages/HomePage';
+import ProjectsPage from '../pages/ProjectsPage';
+import WritingPage from '../pages/WritingPage';
+import ContactPage from '../pages/ContactPage';
 
 class AppRouter extends React.Component {
     render() {
@@ -10,11 +13,9 @@ class AppRouter extends React.Component {
                 <div className="main">
                     <Switch>
                         <Route path="/" component={HomePage} exact={true} />
-                        {/* <Route path="/redirect" component={StravaRedirect} />
-                        <Route path="/yourdistance" component={YourDistance} />
-                        <Route path="/demo" component={YourDistanceDemo} />
-                        <Route path="/about" component={About} />
-                        <Route component={NotFound} /> */}
+                        <Route path="/projects" component={ProjectsPage} />
+                        <Route path="/writing" component={WritingPage} />
+                        <Route path="/contact" component={ContactPage} />
                     </Switch>
                 </div>
             </BrowserRouter>
