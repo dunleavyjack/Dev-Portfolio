@@ -7,7 +7,7 @@ const Overview = () => {
     return (
         <>
             <InfoHeader text="Developer, Designer" />
-            <InfoDetail text="Building responsive, professional, and creative web applications using React, Redux, Figma, and Node.js. I am creative, efficient, and design-oriented. " />
+            <InfoDetail text="Building responsive, professional, and creative web applications using React, Redux, Figma, and Node.js. Creative, efficient, and design-oriented. " />
             <Links />
         </>
     );
