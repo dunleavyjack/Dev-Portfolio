@@ -90,8 +90,8 @@ body {
     color: rgba(0, 128, 96, 1);
     text-align: center;
     text-decoration: none;
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 15px;
+    font-weight: 700;
     padding: 20px;
     transition: color 0.2s;
 }
@@ -116,8 +116,8 @@ body {
 }
 
 .job-title {
-    font-weight: 700;
-    font-size: 25px;
+    font-weight: 300;
+    font-size: 20px;
     color: rgba(0, 128, 96, 1);
     margin: 0;
 }
@@ -134,11 +134,23 @@ body {
 
 .project-text {
     font-weight: 300;
-    font-size: 25px;
+    font-size: 20px;
+}
+
+.project-description {
+    font-style: 'light';
+    font-size: 15px;
+    margin: 0;
 }
 
 .project-image {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    transition: filter 0.5s;
+}
+
+.project-image:hover {
+    filter: brightness(50%);
+    transition: filter 0.5s;
 }
