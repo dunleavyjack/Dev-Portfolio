@@ -12,6 +12,9 @@ const PersonalProjects = () => {
             <Project
                 title={'Spotify Mood Ring'}
                 date={'March 2021'}
+                description={
+                    "A mobile-first React web app that determines a user's mood based on their recently played music on Spotify."
+                }
                 imgSrc={moodring}
                 alttext={'project 1'}
             />
