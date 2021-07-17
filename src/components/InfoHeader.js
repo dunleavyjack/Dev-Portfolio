@@ -1,9 +1,11 @@
 import React from 'react';
 
-const InfoHeader = ({ text }) => {
+const InfoHeader = ({ text, link }) => {
     return (
         <div>
-            <h1 className="info-header">{text.toUpperCase()}</h1>
+            <h1 className="info-header" id={link}>
+                {text.toUpperCase()}
+            </h1>
         </div>
     );
 };
