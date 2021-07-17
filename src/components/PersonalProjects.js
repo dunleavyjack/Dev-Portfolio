@@ -8,7 +8,13 @@ import veryveryfar from '../images/projectImages/veryveryfar.png';
 const PersonalProjects = () => {
     return (
         <>
-            <InfoHeader text={'Personal Projects'} />
+            <InfoHeader text={'Personal Projects'} link={'projects'} />
+            <Project
+                title={'Sseuregi Club'}
+                date={'February 2021'}
+                imgSrc={sclub}
+                alttext={'project 2'}
+            />
             <Project
                 title={'Spotify Mood Ring'}
                 date={'March 2021'}
@@ -17,12 +23,6 @@ const PersonalProjects = () => {
                 }
                 imgSrc={moodring}
                 alttext={'project 1'}
-            />
-            <Project
-                title={'Sseuregi Club'}
-                date={'February 2021'}
-                imgSrc={sclub}
-                alttext={'project 2'}
             />
             <Project
                 title={'Very Very Far'}
