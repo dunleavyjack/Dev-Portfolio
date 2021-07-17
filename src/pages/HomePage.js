@@ -1,7 +1,6 @@
 import React from 'react';
 import NameHeader from '../components/NameHeader';
 import Overview from '../components/Overview';
-import Experience from '../components/Experience';
 import PersonalProjects from '../components/PersonalProjects';
 
 const HomePage = () => {
@@ -9,7 +8,6 @@ const HomePage = () => {
         <div className="page-container">
             <NameHeader />
             <Overview />
-            <Experience />
             <PersonalProjects />
         </div>
     );
