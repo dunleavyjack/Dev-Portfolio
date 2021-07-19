@@ -18,7 +18,7 @@ body {
     color: #989898;
     text-align: center;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 700;
     padding: 20px;
     transition: color 0.2s;
@@ -96,8 +96,8 @@ body {
     color: rgba(0, 128, 96, 1);
     text-align: center;
     text-decoration: none;
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 300;
     padding: 20px;
     transition: color 0.2s;
 }
@@ -185,4 +185,11 @@ body {
 .project-image-container:hover .project-image-text {
     opacity: 1;
     transition: opacity 0.2s;
+}
+
+.animation-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
 }
