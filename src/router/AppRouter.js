@@ -6,6 +6,9 @@ import HomePage from '../pages/HomePage';
 import ProjectsPage from '../pages/ProjectsPage';
 import WritingPage from '../pages/WritingPage';
 import ContactPage from '../pages/ContactPage';
+import MoodRingPage from '../pages/projects/MoodRingPage';
+import SseuregiClubPage from '../pages/projects/SseuregiClubPage';
+import VeryFarPage from '../pages/projects/VeryFarPage';
 
 class AppRouter extends React.Component {
     render() {
@@ -19,6 +22,10 @@ class AppRouter extends React.Component {
                             <Route path="/projects" component={ProjectsPage} />
                             <Route path="/writing" component={WritingPage} />
                             <Route path="/contact" component={ContactPage} />
+                            <Route
+                                path="/projects/sseuregiclub"
+                                component={SseuregiClubPage}
+                            />
                         </Switch>
                     </div>
                 </BrowserRouter>
