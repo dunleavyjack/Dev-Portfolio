@@ -8,7 +8,7 @@ import veryveryfar from '../images/projectImages/veryveryfar.png';
 const PersonalProjects = () => {
     return (
         <>
-            <InfoHeader text={'Projects'} link={'projects'} />
+            <InfoHeader text={'Recent Projects'} link={'projects'} />
             <Project
                 title={'Sseuregi Club'}
                 date={'April 2021'}
