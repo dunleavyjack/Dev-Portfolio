@@ -4,7 +4,7 @@ import Job from '../components/Job';
 
 const Experience = () => {
     return (
-        <div>
+        <div id="work">
             <InfoHeader text={'Experience'} />
             <Job
                 title={'Junior React Developer'}
