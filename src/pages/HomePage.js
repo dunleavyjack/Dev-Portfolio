@@ -1,15 +1,20 @@
 import React from 'react';
-import NameHeader from '../components/NameHeader';
 import Overview from '../components/Overview';
 import PersonalProjects from '../components/PersonalProjects';
 import AnimatedNameHeader from '../components/AnimatedNameHeader';
+import Experience from '../components/Experience';
+import SeeMore from '../components/SeeMore';
 
 const HomePage = () => {
     return (
         <div className="page-container">
-            <AnimatedNameHeader />
-            <Overview />
-            <PersonalProjects />
+            <div className="page">
+                <AnimatedNameHeader />
+                <Overview />
+                <PersonalProjects />
+                {/* <Experience /> */}
+                <SeeMore />
+            </div>
         </div>
     );
 };
