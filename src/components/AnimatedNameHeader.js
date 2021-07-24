@@ -9,8 +9,9 @@ const AnimatedNameHeader = () => {
 
     const init = () => {
         canvas = document.createElement('canvas');
-        const referenceNode = document.getElementById('referenceNode');
-        const parentNode = document.getElementById('parentNode');
+        const referenceNode =
+            document.getElementsByClassName('reference-node')[0];
+        const parentNode = document.getElementsByClassName('parent-node')[0];
 
         parentNode.insertBefore(canvas, referenceNode);
         ctx = canvas.getContext('2d');
@@ -64,8 +65,8 @@ const AnimatedNameHeader = () => {
     };
 
     return (
-        <div id="parentNode" className="animation-container">
-            <div id="referenceNode"></div>
+        <div id="top" className="parent-node">
+            <div className="reference-node"></div>
         </div>
     );
 };
