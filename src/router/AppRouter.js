@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import HomePage from '../pages/HomePage';
 import ProjectsPage from '../pages/ProjectsPage';
-import WritingPage from '../pages/WritingPage';
+import ExperiencePage from '../pages/ExperiencePage';
 import ContactPage from '../pages/ContactPage';
 import MoodRingPage from '../pages/projects/MoodRingPage';
 import SseuregiClubPage from '../pages/projects/SseuregiClubPage';
@@ -20,7 +20,10 @@ class AppRouter extends React.Component {
                         <Switch>
                             <Route path="/" component={HomePage} exact={true} />
                             <Route path="/projects" component={ProjectsPage} />
-                            <Route path="/writing" component={WritingPage} />
+                            <Route
+                                path="/experience"
+                                component={ExperiencePage}
+                            />
                             <Route path="/contact" component={ContactPage} />
                             <Route
                                 path="/projects/sseuregiclub"
