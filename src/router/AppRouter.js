@@ -9,11 +9,13 @@ import ContactPage from '../pages/ContactPage';
 import MoodRingPage from '../pages/projects/MoodRingPage';
 import SseuregiClubPage from '../pages/projects/SseuregiClubPage';
 import VeryFarPage from '../pages/projects/VeryFarPage';
+import Drawer from '../components/Drawer';
 
 class AppRouter extends React.Component {
     render() {
         return (
             <>
+                {/* <Drawer /> */}
                 <Navbar />
                 <BrowserRouter>
                     <div className="main">
