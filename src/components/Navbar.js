@@ -1,14 +1,12 @@
 import React, { useState } from 'react';
-import ChevronDown from '../images/chevron-arrow-down.png';
-import ChevronUp from '../images/chevron-arrow-up.png';
 import github from '../assets/images/github.png';
 import logo from '../assets/images/namelogo.png';
-import burger from '../images/burger.png';
 import dots from '../images/dots.png';
-import DropUp from '../components/DropUp';
+import Drawer from './Drawer';
 
 const Navbar = () => {
     const [atTop, setAtTop] = useState(true);
+    const [drawerOpen, setDrawerOpen] = useState(false);
 
     document.addEventListener('scroll', () => {
         if (window.scrollY > 50) {
@@ -22,8 +20,14 @@ const Navbar = () => {
         return window.location.pathname === page ? 'active' : '';
     };
 
+    const toggleDrawer = () => {
+        setDrawerOpen(!drawerOpen);
+        console.log(drawerOpen);
+    };
+
     return (
         <>
+            <Drawer isOpen={drawerOpen} />
             <nav className={`navbar ${atTop ? null : 'floating'}`}>
                 <div className="logo">
                     <a href="/">
@@ -62,7 +66,7 @@ const Navbar = () => {
                         />
                     </a>
                 </div>
-                <div className="burger">
+                <div className="burger" onClick={() => toggleDrawer()}>
                     <img src={dots}></img>
                 </div>
             </nav>
