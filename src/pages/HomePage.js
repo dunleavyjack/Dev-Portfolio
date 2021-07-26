@@ -12,8 +12,8 @@ const HomePage = () => {
                 <AnimatedNameHeader />
                 <Overview />
                 <PersonalProjects />
-                {/* <Experience /> */}
                 <SeeMore />
+                <Experience />
             </div>
         </div>
     );
