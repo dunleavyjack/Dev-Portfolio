@@ -44,26 +44,23 @@
     transition: color 0.2s;
 }
 
-.drop-links {
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.navlinks a.active {
+    color: rgba(0, 128, 96, 1);
 }
 
-.drop-links a {
-    display: block;
-    color: #989898;
+.drawer-links {
+    color: rgba(0, 128, 96, 1);
+    /* color: #989898; */
     text-align: center;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 18px !important;
     font-weight: 700;
     padding: 15px;
-    transition: color 0.2s;
     margin: 0;
+    width: 100%;
 }
 
-.navlinks a.active {
+.drawer-links:active {
     color: rgba(0, 128, 96, 1);
 }
 
@@ -97,6 +94,13 @@
     width: 30px;
 }
 
+.github-drawer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
 .burger {
     display: none;
     width: 83px;
@@ -108,6 +112,10 @@
 .burger img {
     height: 30px;
     width: 30px;
+}
+
+.drawer-link {
+    font-size: 20px;
 }
 
 @media screen and (max-width: 600px) {
