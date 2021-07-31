@@ -33,7 +33,8 @@ body {
 
 .info-detail {
     font-weight: 300;
-    font-size: 18px;
+    font-size: 20px;
+    line-height: 40px;
     color: #989898;
 }
 
@@ -41,6 +42,7 @@ body {
     overflow: hidden;
     display: flex;
     justify-content: center;
+    white-space: nowrap;
 }
 
 .links-container a {
@@ -156,6 +158,12 @@ body {
     align-items: center;
     justify-content: center;
     height: 100px;
+}
+
+.center-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .page-link {
