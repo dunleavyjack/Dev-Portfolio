@@ -4,7 +4,7 @@ const SeeMore = () => {
     return (
         <div className="center">
             <a className="page-link" href="/projects">
-                ALL PROJECTS
+                SEE MORE PROJECTS
             </a>
         </div>
     );
