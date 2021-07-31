@@ -27,7 +27,7 @@ const Navbar = () => {
 
     return (
         <>
-            <Drawer isOpen={drawerOpen} />
+            <Drawer isOpen={drawerOpen} toggleDrawer={toggleDrawer} />
             <nav className={`navbar ${atTop ? null : 'floating'}`}>
                 <div className="logo">
                     <a href="/">
@@ -67,7 +67,7 @@ const Navbar = () => {
                     </a>
                 </div>
                 <div className="burger" onClick={() => toggleDrawer()}>
-                    <img src={dots}></img>
+                    <img src={dots} alt="hamburger menu"></img>
                 </div>
             </nav>
         </>
