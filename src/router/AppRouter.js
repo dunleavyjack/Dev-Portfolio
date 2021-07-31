@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-
 import Navbar from '../components/Navbar';
 import HomePage from '../pages/HomePage';
 import ProjectsPage from '../pages/ProjectsPage';
@@ -9,13 +8,11 @@ import ContactPage from '../pages/ContactPage';
 import MoodRingPage from '../pages/projects/MoodRingPage';
 import SseuregiClubPage from '../pages/projects/SseuregiClubPage';
 import VeryFarPage from '../pages/projects/VeryFarPage';
-import Drawer from '../components/Drawer';
 
 class AppRouter extends React.Component {
     render() {
         return (
             <>
-                {/* <Drawer /> */}
                 <Navbar />
                 <BrowserRouter>
                     <div className="main">
@@ -28,8 +25,13 @@ class AppRouter extends React.Component {
                             />
                             <Route path="/contact" component={ContactPage} />
                             <Route
-                                path="/projects/sseuregiclub"
+                                path="/sseuregiclub"
                                 component={SseuregiClubPage}
+                            />
+                            <Route path="/moodring" component={MoodRingPage} />
+                            <Route
+                                path="/veryveryfar"
+                                component={VeryFarPage}
                             />
                         </Switch>
                     </div>
