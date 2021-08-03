@@ -4,6 +4,7 @@ import './styles/stylesheet.css';
 import './styles/header.css';
 import './styles/navbar.css';
 import './styles/projectpage.css';
+import './styles/contactpage.css';
 import AppRouter from './router/AppRouter';
 
 ReactDom.render(
