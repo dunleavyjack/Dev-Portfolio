@@ -53,19 +53,21 @@ const Drawer = ({ isOpen, toggleDrawer }) => {
                 varient="temporary"
                 className={classes.drawer}
             >
-                <div className="github-drawer-container">
-                    <a href="https://github.com/dunleavyjack">
-                        <img
-                            src={github}
-                            alt="Github Link Icon"
-                            height={40}
-                            width={40}
-                        />
-                    </a>
+                <div className="center-drawer">
+                    <div className="github-drawer-container">
+                        <a href="https://github.com/dunleavyjack">
+                            <img
+                                src={github}
+                                alt="Github Link Icon"
+                                height={40}
+                                width={40}
+                            />
+                        </a>
+                    </div>
+                    <List>
+                        <List>{drawerItems}</List>
+                    </List>
                 </div>
-                <List>
-                    <List>{drawerItems}</List>
-                </List>
             </MUIDrawer>
         </div>
     );
