@@ -4,6 +4,7 @@ import PersonalProjects from '../components/PersonalProjects';
 import AnimatedNameHeader from '../components/AnimatedNameHeader';
 import Experience from '../components/Experience';
 import SeeMore from '../components/SeeMore';
+import Skills from '../components/Skills';
 
 const HomePage = () => {
     return (
@@ -13,6 +14,7 @@ const HomePage = () => {
                 <Overview />
                 <PersonalProjects />
                 <SeeMore />
+                <Skills />
                 <Experience />
             </div>
         </div>
