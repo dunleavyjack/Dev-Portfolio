@@ -2,9 +2,10 @@ import React from 'react';
 import NavSpacer from '../../components/NavSpacer';
 import IndividualProjectHeader from '../../components/ProjectPage/IndividualProjects/IndividualProjectHeader';
 import moodring from '../../images/projectImages/moodringHR.png';
-import StaticProjectImage from '../../components/ProjectPage/IndividualProjects/StaticProjectImage';
+import StaticProjectImages from '../../components/ProjectPage/IndividualProjects/StaticProjectImages';
 import StaticProjectAbout from '../../components/ProjectPage/IndividualProjects/StaticProjectAbout';
 import TechList from '../../components/ProjectPage/IndividualProjects/TechList';
+import TakeALook from '../../components/ProjectPage/IndividualProjects/TakeALook';
 import SeeMore from '../../components/SeeMore';
 
 const MoodRingPage = () => {
@@ -32,9 +33,7 @@ const MoodRingPage = () => {
                     linkText={'moodring.me'}
                     link={'https://moodring.vercel.app'}
                 />
-                <StaticProjectImage image={moodring} />
-                <StaticProjectImage image={moodring} />
-                <StaticProjectImage image={moodring} />
+                <StaticProjectImages images={[moodring, moodring, moodring]} />
                 <StaticProjectAbout text={projectDescription} />
                 <TechList
                     tech={[
@@ -46,6 +45,22 @@ const MoodRingPage = () => {
                         'Git',
                         'Figma',
                         'Vercel Deployment',
+                    ]}
+                />
+                <TakeALook
+                    links={[
+                        {
+                            text: 'moodring.me',
+                            url: 'https://mooding.vercel.app',
+                        },
+                        {
+                            text: 'Full Code on Github',
+                            url: 'https://mooding.vercel.app',
+                        },
+                        {
+                            text: 'Medium Write Up',
+                            url: 'https://mooding.vercel.app',
+                        },
                     ]}
                 />
                 <SeeMore />
