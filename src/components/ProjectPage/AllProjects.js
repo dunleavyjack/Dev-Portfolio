@@ -4,6 +4,7 @@ import Project from '../Project';
 import moodring from '../../images/projectImages/moodringHR.png';
 import sclub from '../../images/projectImages/sseuregiclubHR.png';
 import veryveryfar from '../../images/projectImages/veryveryfar.png';
+import Spacer from '../Spacer';
 
 const AllProjects = () => {
     return (
@@ -14,6 +15,7 @@ const AllProjects = () => {
                 date={'April 2021'}
                 imgSrc={sclub}
                 alttext={'project 2'}
+                link="sseuregiclub"
             />
             <Project
                 title={'Spotify Mood Ring'}
@@ -23,22 +25,27 @@ const AllProjects = () => {
                 }
                 imgSrc={moodring}
                 alttext={'project 1'}
+                link="moodring"
             />
             <Project
                 title={'Very Very Far'}
                 date={'February 2021'}
                 imgSrc={veryveryfar}
                 alttext={'project 3'}
+                link="veryveryfar"
             />
 
+            <Spacer />
             <InfoHeader text={'iOS'} link={'projects'} id="ios" />
             <Project
                 title={'Sseuregi Club'}
                 date={'April 2021'}
                 imgSrc={sclub}
                 alttext={'project 2'}
+                link="coviddaily"
             />
 
+            <Spacer />
             <InfoHeader
                 text={'CHROME EXTENSIONS'}
                 link={'projects'}
@@ -49,29 +56,36 @@ const AllProjects = () => {
                 date={'April 2021'}
                 imgSrc={sclub}
                 alttext={'project 2'}
+                link="scoredog"
             />
             <Project
                 title={'Sseuregi Club'}
                 date={'April 2021'}
                 imgSrc={sclub}
                 alttext={'project 2'}
+                link="toptoptop"
             />
 
+            <Spacer />
             <InfoHeader text={'AUGEMENTED REALITY'} link={'projects'} id="ar" />
             <Project
                 title={'Spark AR Instagram Filter'}
                 date={'April 2021'}
                 imgSrc={sclub}
                 alttext={'project 2'}
+                link="igfilter"
             />
 
+            <Spacer />
             <InfoHeader text={'PYTHON'} link={'projects'} id="python" />
             <Project
                 title={'Sseuregi Club'}
                 date={'April 2021'}
                 imgSrc={sclub}
                 alttext={'project 2'}
+                link="fourforten"
             />
+            <Spacer />
         </>
     );
 };
