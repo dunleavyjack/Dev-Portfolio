@@ -1,10 +1,15 @@
 import React from 'react';
+import NavSpacer from '../components/NavSpacer';
+import ContactOverview from '../components/ContactPage/ContactOverview';
 
 const ContactPage = () => {
     return (
-        <div>
-            <h1>Contact Page</h1>
-            <h1>Contact Page</h1>
+        <div className="full-page-container">
+            <div className="full-page">
+                <NavSpacer />
+                <ContactOverview />
+                <p className="contact-email">dunleavyjack@gmail.com</p>
+            </div>
         </div>
     );
 };
