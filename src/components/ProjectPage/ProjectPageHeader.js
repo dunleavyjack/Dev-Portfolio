@@ -1,8 +1,8 @@
 import React from 'react';
-import Links from '../Links';
+import ProjectPageLinks from './IndividualProjects/ProjectPageLinks';
 
 const ProductPageHeader = () => {
-    const links = [
+    const rowOne = [
         {
             label: 'REACT',
             ref: '#react',
@@ -15,6 +15,9 @@ const ProductPageHeader = () => {
             label: 'AR',
             ref: '#ar',
         },
+    ];
+
+    const rowTwo = [
         {
             label: 'iOS',
             ref: '#ios',
@@ -27,7 +30,7 @@ const ProductPageHeader = () => {
 
     return (
         <>
-            <Links data={links} />
+            <ProjectPageLinks rowOne={rowOne} rowTwo={rowTwo} />
         </>
     );
 };
