@@ -6,10 +6,10 @@ const TechList = ({ tech }) => {
     });
 
     return (
-        <>
+        <div className="static-project-spacing">
             <h1 className="project-about">BUILT WITH</h1>
             <ul className="project-tech">{list}</ul>
-        </>
+        </div>
     );
 };
 
