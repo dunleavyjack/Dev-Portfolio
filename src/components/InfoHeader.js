@@ -3,9 +3,9 @@ import React from 'react';
 const InfoHeader = ({ text, link, id }) => {
     return (
         <>
-            <div id={id} style={{ position: 'relative', top: '-65px' }}></div>
+            <div id={id} className="info-header-spacing"></div>
             <div>
-                <h1 className="info-header" id={link}>
+                <h1 className="project-info-header" id={link}>
                     {text.toUpperCase()}
                 </h1>
             </div>
