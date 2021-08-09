@@ -6,7 +6,6 @@ import ProjectsPage from '../pages/Projects/ProjectsPage';
 import WritingPage from '../pages/Writing/WritingPage';
 import ExperiencePage from '../pages/Experience/ExperiencePage';
 import ContactPage from '../pages/Contact/ContactPage';
-
 import MoodRingPage from '../components/projects/MoodRingPage';
 import SseuregiClubPage from '../components/projects/SseuregiClubPage';
 import VeryFarPage from '../components/projects/VeryFarPage';
