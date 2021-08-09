@@ -5,6 +5,7 @@ import './styles/header.css';
 import './styles/navbar.css';
 import './styles/projectpage.css';
 import './styles/contactpage.css';
+import './styles/experiencepage.css';
 import AppRouter from './router/AppRouter';
 
 ReactDom.render(
