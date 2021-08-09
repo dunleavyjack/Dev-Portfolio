@@ -3,7 +3,7 @@ import NavSpacer from '../../components/NavSpacer';
 import AllProjects from './components/AllProjects';
 import ProjectPageTitle from './components/ProjectPageTitle';
 
-const ProjectsPage = () => {
+const ProjectPage = () => {
     return (
         <div className="page-container">
             <div className="page">
@@ -15,4 +15,4 @@ const ProjectsPage = () => {
     );
 };
 
-export default ProjectsPage;
+export default ProjectPage;
