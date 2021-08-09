@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import HomePage from '../pages/Hello/HomePage';
 import WritingPage from '../pages/Writing/WritingPage';
-import ProjectPage from '../pages/Projects/ProjectPage';
+import ProjectPage from '../pages/ProjectDisplay/ProjectPage';
 import ExperiencePage from '../pages/Experience/ExperiencePage';
 import ContactPage from '../pages/Contact/ContactPage';
 import MoodRingPage from '../components/projects/MoodRingPage';
