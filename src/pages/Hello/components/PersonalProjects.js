@@ -2,7 +2,7 @@ import React from 'react';
 import InfoHeader from '../../../components/InfoHeader';
 import Project from '../../../components/Project';
 import moodring from '../../../images/projectImages/moodringHR.png';
-import sclub from '../../../images/projectImages/sseuregiclubHR.png';
+import sclub from '../../../images/projectImages/sclub-mockup-1.png';
 import veryveryfar from '../../../images/projectImages/veryveryfar.png';
 
 const PersonalProjects = () => {
