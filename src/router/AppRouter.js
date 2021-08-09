@@ -1,13 +1,15 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Navbar from '../components/Navbar';
-import HomePage from '../pages/HomePage';
-import ProjectsPage from '../pages/ProjectsPage';
-import ExperiencePage from '../pages/ExperiencePage';
-import ContactPage from '../pages/ContactPage';
-import MoodRingPage from '../pages/projects/MoodRingPage';
-import SseuregiClubPage from '../pages/projects/SseuregiClubPage';
-import VeryFarPage from '../pages/projects/VeryFarPage';
+import HomePage from '../pages/Hello/HomePage';
+import ProjectsPage from '../pages/Projects/ProjectsPage';
+import WritingPage from '../pages/Writing/WritingPage';
+import ExperiencePage from '../pages/Experience/ExperiencePage';
+import ContactPage from '../pages/Contact/ContactPage';
+
+import MoodRingPage from '../components/projects/MoodRingPage';
+import SseuregiClubPage from '../components/projects/SseuregiClubPage';
+import VeryFarPage from '../components/projects/VeryFarPage';
 
 class AppRouter extends React.Component {
     render() {
@@ -29,6 +31,7 @@ class AppRouter extends React.Component {
                                 component={SseuregiClubPage}
                             />
                             <Route path="/moodring" component={MoodRingPage} />
+                            <Route path="/writing" component={WritingPage} />
                             <Route
                                 path="/veryveryfar"
                                 component={VeryFarPage}
