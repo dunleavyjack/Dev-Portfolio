@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import HomePage from '../pages/Hello/HomePage';
-import ProjectsPage from '../pages/Projects/ProjectsPage';
+import ProjectPage from '../pages/Projects/ProjectPage';
 import WritingPage from '../pages/Writing/WritingPage';
 import ExperiencePage from '../pages/Experience/ExperiencePage';
 import ContactPage from '../pages/Contact/ContactPage';
@@ -19,7 +19,7 @@ class AppRouter extends React.Component {
                     <div className="main">
                         <Switch>
                             <Route path="/" component={HomePage} exact={true} />
-                            <Route path="/projects" component={ProjectsPage} />
+                            <Route path="/projects" component={ProjectPage} />
                             <Route
                                 path="/experience"
                                 component={ExperiencePage}
