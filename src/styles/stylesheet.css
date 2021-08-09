@@ -15,7 +15,7 @@ body {
     max-width: 1000px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .page {
         padding: 0px;
     }
@@ -113,7 +113,7 @@ body {
     bottom: -15px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .project-text-mobile {
         display: inline-block;
     }
@@ -279,4 +279,30 @@ body {
     font-weight: 400;
     padding-top: 5px;
     margin: 0;
+}
+
+.page-title {
+    margin: 0;
+    padding: 0;
+    border-bottom: 5px solid #fcaf38;
+}
+
+.codebox-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f2f2f2;
+}
+
+.codebox-container img {
+    position: relative;
+    left: 20px;
+    object-fit: contain;
+    height: 100%;
+}
+
+.text-spacer {
+    height: 20px;
 }

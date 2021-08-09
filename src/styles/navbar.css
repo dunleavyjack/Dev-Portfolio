@@ -34,7 +34,7 @@
     text-decoration: none;
     font-size: 18px;
     font-weight: 700;
-    padding: 15px;
+    padding: 18px;
     transition: color 0.2s;
     margin: 0;
 }
@@ -49,8 +49,8 @@
 }
 
 .drawer-links {
-    color: rgba(0, 128, 96, 1);
-    /* color: #989898; */
+    /* color: rgba(0, 128, 96, 1); */
+    color: #989898;
     text-align: center;
     text-decoration: none;
     font-size: 18px !important;
@@ -58,6 +58,14 @@
     padding: 15px;
     margin: 0;
     width: 100%;
+}
+
+.drawer-links:hover {
+    color: rgba(0, 128, 96, 1);
+}
+
+.drawer-links.active {
+    color: rgba(0, 128, 96, 1);
 }
 
 .drawer-links:active {
@@ -114,11 +122,15 @@
     width: 30px;
 }
 
+.burger img:hover {
+    background-image: url('../images/dots.png') no-repeat;
+}
+
 .drawer-link {
     font-size: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     .navlinks a {
         display: none;
     }

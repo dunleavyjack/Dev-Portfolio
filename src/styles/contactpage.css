@@ -38,6 +38,39 @@
 .contact-email {
     font-size: 15px;
     color: #989898;
-    position: relative;
-    top: -35px;
+    /* position: relative; */
+    /* top: -35px; */
+}
+
+.in-touch {
+    padding: 12px;
+    padding-top: 20px;
+    line-height: 0;
+}
+
+.contact-links-container {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contact-links-container a {
+    color: rgba(0, 128, 96, 1);
+    text-align: center;
+    text-decoration: none;
+    line-height: 1;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 12px;
+    margin: 0px;
+    transition: color 0.2s;
+}
+
+.contact-links-container a:hover,
+.contact-links-container a:active {
+    color: #fcaf38;
+    transition: color 0.2s;
 }
