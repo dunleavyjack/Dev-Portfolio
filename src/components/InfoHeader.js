@@ -6,7 +6,7 @@ const InfoHeader = ({ text, link, id }) => {
             <div id={id} className="info-header-spacing"></div>
             <div>
                 <h1 className="project-info-header" id={link}>
-                    {text.toUpperCase()}
+                    {text}
                 </h1>
             </div>
         </>

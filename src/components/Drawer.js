@@ -1,5 +1,5 @@
 import React from 'react';
-import github from '../assets/images/github.png';
+import github from '../images/github.png';
 import {
     Drawer as MUIDrawer,
     List,
@@ -15,17 +15,21 @@ const useStyles = makeStyles({
 });
 
 const drawerLinks = [
-    {
-        name: 'HELLO',
-        link: '/',
-    },
+    // {
+    //     name: 'HELLO',
+    //     link: '/',
+    // },
     {
         name: 'PROJECTS',
         link: '/projects',
     },
     {
-        name: 'EXPERIENCE',
+        name: 'WORK',
         link: '/experience',
+    },
+    {
+        name: 'WRITING',
+        link: '/writing',
     },
     {
         name: 'CONTACT',
@@ -33,10 +37,14 @@ const drawerLinks = [
     },
 ];
 
+const toggleActive = (page) => {
+    return window.location.pathname === page ? 'active' : '';
+};
+
 const drawerItems = drawerLinks.map(({ link, name }, index) => {
     return (
         <ListItem key={index}>
-            <a href={link} className="drawer-links">
+            <a href={link} className={`drawer-links ${toggleActive(link)}`}>
                 <ListItemText primary={name} disableTypography={true} />
             </a>
         </ListItem>

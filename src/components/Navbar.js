@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import github from '../assets/images/github.png';
-import logo from '../assets/images/namelogo.png';
+import github from '../images/github.png';
+import logo from '../images/namelogo.png';
 import dots from '../images/dots.png';
+import dotsblack from '../images/dotsblack.png';
 import Drawer from './Drawer';
 
 const Navbar = () => {
@@ -40,9 +41,9 @@ const Navbar = () => {
                     </a>
                 </div>
                 <div className="navlinks" id="customNav">
-                    <a href="/" className={toggleActive('/')}>
+                    {/* <a href="/" className={toggleActive('/')}>
                         HELLO
-                    </a>
+                    </a> */}
                     <a href="/projects" className={toggleActive('/projects')}>
                         PROJECTS
                     </a>
@@ -50,7 +51,10 @@ const Navbar = () => {
                         href="/experience"
                         className={toggleActive('/experience')}
                     >
-                        EXPERIENCE
+                        WORK
+                    </a>
+                    <a href="/writing" className={toggleActive('/writing')}>
+                        WRITING
                     </a>
                     <a href="/contact" className={toggleActive('/contact')}>
                         CONTACT
@@ -67,7 +71,7 @@ const Navbar = () => {
                     </a>
                 </div>
                 <div className="burger" onClick={() => toggleDrawer()}>
-                    <img src={dots} alt="hamburger menu"></img>
+                    <img src={dotsblack} alt="hamburger menu"></img>
                 </div>
             </nav>
         </>
