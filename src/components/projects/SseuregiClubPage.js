@@ -2,8 +2,6 @@ import React from 'react';
 import NavSpacer from '../../components/NavSpacer';
 import IndividualProjectHeader from '../../pages/Projects/components/IndividualProjects/IndividualProjectHeader';
 import moodring from '../../images/projectImages/moodringHR.png';
-import TakeALook from '../../pages/Projects/components/IndividualProjects/TakeALook';
-import SeeMore from '../../components/SeeMore';
 import StaticProjectImage from '../../pages/Projects/components/IndividualProjects/StaticProjectImage';
 import CodeBox from '../CodeBox';
 import TextSpacer from '../TextSpacer';
@@ -13,18 +11,6 @@ import code3 from '../../images/projectImages/code/sclub-code-3.png';
 import code4 from '../../images/projectImages/code/sclub-code-4.png';
 
 const SseuregiClubPage = () => {
-    const projectDescription = (
-        <p className="project-description">
-            This past February, I built Mood Ring. It examines a user’s recently
-            played songs on Spotify using the Spotify API in order to guess that
-            user’s mood.
-            <br />
-            <br />
-            After sharing it with some friends and posting it online and I’m
-            happy to say it has attracted over 3000 users from 15+ countries.
-        </p>
-    );
-
     return (
         <div className="page-container">
             <div className="page">

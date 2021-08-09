@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import github from '../images/github.png';
 import logo from '../images/namelogo.png';
-import dots from '../images/dots.png';
+// import dots from '../images/dots.png';
 import dotsblack from '../images/dotsblack.png';
 import Drawer from './Drawer';
 

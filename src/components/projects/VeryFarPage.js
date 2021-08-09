@@ -2,12 +2,9 @@ import React from 'react';
 import NavSpacer from '../../components/NavSpacer';
 import IndividualProjectHeader from '../../pages/Projects/components/IndividualProjects/IndividualProjectHeader';
 import moodring from '../../images/projectImages/moodringHR.png';
-import TakeALook from '../../pages/Projects/components/IndividualProjects/TakeALook';
-import SeeMore from '../../components/SeeMore';
 import StaticProjectImage from '../../pages/Projects/components/IndividualProjects/StaticProjectImage';
 import code1 from '../../images/projectImages/code/veryveryfarcode1.png';
 import code2 from '../../images/projectImages/code/veryveryfarcode2.png';
-import code3 from '../../images/projectImages/code/veryveryfarcode3.png';
 import CodeBox from '../CodeBox';
 import TextSpacer from '../TextSpacer';
 
