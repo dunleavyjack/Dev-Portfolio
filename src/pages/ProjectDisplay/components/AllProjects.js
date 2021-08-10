@@ -1,10 +1,11 @@
 import React from 'react';
 import InfoHeader from '../../../components/InfoHeader';
 import Project from '../../../components/Project';
-import moodring from '../../../images/projectImages/moodringHR.png';
 import sclub from '../../../images/projectImages/sseuregiclubHR.png';
 import veryveryfar from '../../../images/projectImages/veryveryfar.png';
 import Spacer from '../../../components/Spacer';
+import ctcovid from '../../../images/projectImages/CovidCT/ctcovid-mockup-1.png';
+import moodring1 from '../../../images/projectImages/MoodRing/moodring-mockup-1.png';
 
 const AllProjects = () => {
     return (
@@ -27,7 +28,7 @@ const AllProjects = () => {
                 description={
                     "A mobile-first React web app that determines a user's mood based on their recently played music on Spotify."
                 }
-                imgSrc={moodring}
+                imgSrc={moodring1}
                 alttext={'project 1'}
                 link="moodring"
             />
@@ -42,10 +43,10 @@ const AllProjects = () => {
             <Spacer />
             <InfoHeader text={'iOS'} link={'projects'} id="ios" />
             <Project
-                title={'Sseuregi Club'}
-                date={'April 2021'}
-                imgSrc={sclub}
-                alttext={'project 2'}
+                title={'CT Covid Daily'}
+                date={'January 2021'}
+                imgSrc={ctcovid}
+                alttext={'ct covid daily'}
                 link="coviddaily"
             />
 

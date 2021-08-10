@@ -6,6 +6,8 @@ import WritingPage from '../pages/Writing/WritingPage';
 import ProjectPage from '../pages/ProjectDisplay/ProjectPage';
 import ExperiencePage from '../pages/Experience/ExperiencePage';
 import ContactPage from '../pages/Contact/ContactPage';
+
+import CTCovidDaily from '../components/projects/CTCovidDaily';
 import MoodRingPage from '../components/projects/MoodRingPage';
 import SseuregiClubPage from '../components/projects/SseuregiClubPage';
 import VeryFarPage from '../components/projects/VeryFarPage';
@@ -34,6 +36,10 @@ class AppRouter extends React.Component {
                             <Route
                                 path="/veryveryfar"
                                 component={VeryFarPage}
+                            />
+                            <Route
+                                path="/coviddaily"
+                                component={CTCovidDaily}
                             />
                         </Switch>
                     </div>

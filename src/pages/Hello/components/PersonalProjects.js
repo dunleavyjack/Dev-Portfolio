@@ -1,14 +1,33 @@
 import React from 'react';
-import InfoHeader from '../../../components/InfoHeader';
 import Project from '../../../components/Project';
-import moodring from '../../../images/projectImages/moodringHR.png';
 import sclub from '../../../images/projectImages/sclub-mockup-1.png';
 import veryveryfar from '../../../images/projectImages/veryveryfar.png';
+import moodring1 from '../../../images/projectImages/MoodRing/moodring-mockup-1.png';
+import Links from '../../Contact/components/ContactLinks';
+import TextSpacer from '../../../components/TextSpacer';
 
 const PersonalProjects = () => {
+    const links = [
+        {
+            label: 'GITHUB',
+            ref: 'https://github.com/dunleavyjack',
+        },
+        {
+            label: 'LINKEDIN',
+            ref: 'https://www.linkedin.com/in/jack-dunleavy-0b177b83/',
+        },
+        {
+            label: 'MEDIUM',
+            ref: 'https://jackdunleavy.medium.com',
+        },
+    ];
+
     return (
         <>
-            <InfoHeader text={'Featured Projects'} link={'projects'} />
+            <TextSpacer />
+            <Links data={links} />
+            <TextSpacer />
+            {/* <InfoHeader text={'Featured Projects'} link={'projects'} /> */}
             <Project
                 title={'Sseuregi Club'}
                 date={'April 2021'}
@@ -19,7 +38,7 @@ const PersonalProjects = () => {
             <Project
                 title={'Spotify Mood Ring'}
                 date={'March 2021'}
-                imgSrc={moodring}
+                imgSrc={moodring1}
                 altText={'project 1'}
                 link={'moodring'}
             />

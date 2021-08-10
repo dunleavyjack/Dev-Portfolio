@@ -5,7 +5,7 @@ const ExperiencePageTitle = () => {
         <div className="title-container">
             <h1 className="page-title">PROFESSIONAL WORK</h1>
             <p className="work-title-description">
-                React & JavaScript Developer
+                Front-End React & JavaScript Developer
             </p>
         </div>
     );
