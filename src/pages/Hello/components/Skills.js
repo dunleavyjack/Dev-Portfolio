@@ -35,12 +35,12 @@ const mySkills = [
     {
         name: 'Figma',
         imgSrc: figmaLogo,
-        text: 'Pixel perfect and responsive design for blueprints and mock-ups',
+        text: 'Pixel perfect and responsive design for professional blueprints and mock-ups.',
     },
     {
         name: 'Cypress',
         imgSrc: cypressLogo,
-        text: 'Modern end-to-end UI testing to keep everything running smoothly',
+        text: 'Modern end-to-end UI testing to keep everything running smoothly.',
     },
     {
         name: 'Material UI',
