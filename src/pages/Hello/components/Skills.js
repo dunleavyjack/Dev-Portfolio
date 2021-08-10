@@ -14,43 +14,43 @@ const mySkills = [
     {
         name: 'React',
         imgSrc: reactLogo,
-        text: 'Custom hooks, React Router, API integration, with modern and functional components.',
+        text: 'Custom hooks, React-Router, API integration, with modern and functional components.',
     },
     {
         name: 'JavaScript',
         imgSrc: javascriptLogo,
-        text: 'Clear, concise, and expressive ES6 Javascript.',
+        text: 'Clear, concise, and expressive ES6 Javascript for faster and efficient production.',
     },
     {
         name: 'HTML & CSS',
         imgSrc: htmlcssLogo,
         widePic: 'yes',
-        text: 'Custom hooks, React Router, API integration, with modern and functional components.',
+        text: 'Semantic HTML5, Flexbox, and the Grid system for elite, modern design and development.',
     },
     {
         name: 'Redux',
         imgSrc: reduxLogo,
-        text: 'Effective State management with useful and well defined actions and reducers.',
+        text: 'Effective global state management with useful and well defined actions and reducers.',
     },
     {
         name: 'Figma',
         imgSrc: figmaLogo,
-        text: 'Custom hooks, React Router, API integration, with modern and functional components.',
+        text: 'Pixel perfect and responsive design for blueprints and mock-ups',
     },
     {
         name: 'Cypress',
         imgSrc: cypressLogo,
-        text: 'Custom hooks, React Router, API integration, with modern and functional components.',
+        text: 'Modern end-to-end UI testing to keep everything running smoothly',
     },
     {
         name: 'Material UI',
         imgSrc: materialLogo,
-        text: 'Custom hooks, React Router, API integration, with modern and functional components.',
+        text: 'A firm grasp of their design system to speed up professional work and jump into any project.',
     },
     {
         name: 'BootStrap',
         imgSrc: bootstrapLogo,
-        text: 'Custom hooks, React Router, API integration, with modern and functional components.',
+        text: 'BootStrap 4 and BootStrap 5 for accelerating CSS design.',
     },
 ];
 
