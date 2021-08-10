@@ -25,7 +25,7 @@ const AnimatedNameHeader = () => {
 
             leon = new window.LeonSans({
                 text: 'Jack Dunleavy',
-                color: ['#008060'],
+                color: ['#000000'],
                 size: 100,
                 weight: 500,
             });

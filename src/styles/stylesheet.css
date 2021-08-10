@@ -34,7 +34,7 @@ body {
 .info-detail {
     font-weight: 300;
     font-size: 15px;
-    line-height: 40px;
+    line-height: 30px;
     color: #989898;
 }
 
@@ -275,7 +275,7 @@ body {
 .skill-text {
     color: #989898;
     font-size: 15px;
-    line-height: 25px;
+    line-height: 20px;
     font-weight: 400;
     padding-top: 5px;
     margin: 0;

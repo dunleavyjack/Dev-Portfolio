@@ -26,7 +26,7 @@
     font-size: 20;
     font-weight: 400;
     text-align: center;
-    line-height: 30px;
+    line-height: 25px;
     margin: 0px;
 }
 
@@ -78,12 +78,12 @@
 .project-description {
     /* max-width: 500px; */
     color: #989898;
-    line-height: 30px;
+    line-height: 25px;
 }
 
 .project-tech {
     color: #989898;
-    line-height: 30px;
+    line-height: 25px;
 }
 
 .project-link-list-container {
@@ -94,7 +94,7 @@
     color: rgba(0, 128, 96, 1);
     text-decoration: none;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 25px;
     transition: color 0.2s;
 }
 
