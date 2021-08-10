@@ -1,6 +1,5 @@
 import React from 'react';
 import InfoHeader from '../../../components/InfoHeader';
-// import Links from '../../../components/Links';
 
 const Overview = () => {
     return (
@@ -9,7 +8,7 @@ const Overview = () => {
             <p className="info-detail">
                 Front-end developer building responsive, professional, and
                 creative web applications using React, Redux, Figma, and
-                Node.js. Always creative, efficient, and design-oriented.
+                Node.js. Creative, efficient, and design-oriented.
             </p>
             {/* <p className="info-detail">
                 Front-end developer building responsive, professional, and
