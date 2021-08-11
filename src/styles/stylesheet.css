@@ -81,7 +81,7 @@ body {
 }
 
 .job-container {
-    padding-bottom: 25px;
+    padding-bottom: 50px;
 }
 
 .job-description {
@@ -403,6 +403,15 @@ body {
     color: white;
     font-size: 15px;
     font-weight: 300;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     line-height: 0;
+}
+
+.skills-title {
+    position: relative;
+    top: -10px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 25px;
 }

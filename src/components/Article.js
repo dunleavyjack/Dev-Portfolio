@@ -1,16 +1,14 @@
 import React from 'react';
 
-const Job = ({ title, description, duration, company, link }) => {
+const Article = ({ title, description, link }) => {
     return (
         <div className="job-container">
             <a className="job-link" href={link}>
                 <p className="job-title">{title.toUpperCase()}</p>
             </a>
-            <p className="job-description">
-                {company} | {description} | {duration}
-            </p>
+            <p className="job-description">{description}</p>
         </div>
     );
 };
 
-export default Job;
+export default Article;

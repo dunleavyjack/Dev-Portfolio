@@ -203,3 +203,7 @@
 .black {
     color: black;
 }
+
+.experience-container {
+    position: relative;
+}

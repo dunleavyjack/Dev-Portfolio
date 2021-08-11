@@ -1,5 +1,4 @@
 import React from 'react';
-import InfoHeader from '../../../components/InfoHeader';
 import Skill from './Skill';
 import reactLogo from '../../../images/techImages/reactLogo.png';
 import reduxLogo from '../../../images/techImages/reduxLogo.png';
@@ -61,7 +60,7 @@ const skillList = mySkills.map((skill) => {
 const Skills = () => {
     return (
         <>
-            <InfoHeader text="Skills" />
+            <h1 className="skills-title">Developer & Design Skills</h1>
             <div className="skills-container">{skillList}</div>
         </>
     );
