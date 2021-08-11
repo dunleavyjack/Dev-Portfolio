@@ -157,6 +157,18 @@
     color: black;
 }
 
+@media screen and (max-width: 700px) {
+    .project-info-header {
+        font-weight: 300;
+        text-align: center;
+        font-size: 20px;
+        display: relative;
+        bottom: -30px;
+        text-decoration: none;
+        color: #008060;
+    }
+}
+
 .spacer {
     height: 50px;
 }

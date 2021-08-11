@@ -23,6 +23,8 @@ const AllProjects = () => {
                 link="sseuregiclub"
                 description="A public recyling and trash bin finder."
             />
+
+            <Spacer />
             <Project
                 title={'Spotify Mood Ring'}
                 date={'March 2021'}
@@ -33,6 +35,8 @@ const AllProjects = () => {
                 alttext={'project 1'}
                 link="moodring"
             />
+
+            <Spacer />
             <Project
                 title={'Very Very Far'}
                 date={'February 2021'}
@@ -67,6 +71,8 @@ const AllProjects = () => {
                 link="scoredog"
                 description="Adds IMDb and Rotten Tomatoes scores to you Netflix."
             />
+
+            <Spacer />
             <Project
                 title={'Top Top Top'}
                 date={'April 2021'}
