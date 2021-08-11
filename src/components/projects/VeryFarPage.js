@@ -7,6 +7,7 @@ import code1 from '../../images/projectImages/code/veryveryfarcode1.png';
 import code2 from '../../images/projectImages/code/veryveryfarcode2.png';
 import CodeBox from '../CodeBox';
 import TextSpacer from '../TextSpacer';
+import SeeMore from '../SeeMore';
 
 const VeryFarPage = () => {
     return (
@@ -220,6 +221,7 @@ const VeryFarPage = () => {
                     lot of fun sharing this one with friends, and it was great
                     to hear their feedback and suggestions.
                 </p>
+                <SeeMore />
             </div>
         </div>
     );

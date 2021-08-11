@@ -21,12 +21,13 @@ const AllProjects = () => {
                 imgSrc={sclub}
                 alttext={'project 2'}
                 link="sseuregiclub"
+                description="A public recyling and trash bin finder."
             />
             <Project
                 title={'Spotify Mood Ring'}
                 date={'March 2021'}
                 description={
-                    "A mobile-first React web app that determines a user's mood based on their recently played music on Spotify."
+                    'A mood detector based on your recently played music.'
                 }
                 imgSrc={moodring1}
                 alttext={'project 1'}
@@ -38,6 +39,7 @@ const AllProjects = () => {
                 imgSrc={veryveryfar}
                 alttext={'project 3'}
                 link="veryveryfar"
+                description="Your running, cycling, and swimming totals uniquely added up."
             />
 
             <Spacer />
@@ -48,6 +50,7 @@ const AllProjects = () => {
                 imgSrc={ctcovid}
                 alttext={'ct covid daily'}
                 link="coviddaily"
+                description="A COVID-19 data tracker for Connecticut"
             />
 
             <Spacer />
@@ -57,18 +60,20 @@ const AllProjects = () => {
                 id="chrome"
             />
             <Project
-                title={'Sseuregi Club'}
+                title={'Score Dog'}
                 date={'April 2021'}
                 imgSrc={sclub}
                 alttext={'project 2'}
                 link="scoredog"
+                description="Adds IMDb and Rotten Tomatoes scores to you Netflix."
             />
             <Project
-                title={'Sseuregi Club'}
+                title={'Top Top Top'}
                 date={'April 2021'}
                 imgSrc={sclub}
                 alttext={'project 2'}
                 link="toptoptop"
+                description="Jump to the most popuplar posts from any subreddit."
             />
 
             <Spacer />
@@ -79,6 +84,7 @@ const AllProjects = () => {
                 imgSrc={sclub}
                 alttext={'project 2'}
                 link="igfilter"
+                description="AR Instagram Quiz Filter with JavaScript"
             />
 
             <Spacer />
@@ -89,6 +95,7 @@ const AllProjects = () => {
                 imgSrc={sclub}
                 alttext={'project 2'}
                 link="fourforten"
+                description="90s pixel-art scrolling game set in a Korean Convience Store."
             />
             <Spacer />
         </>

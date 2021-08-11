@@ -27,6 +27,7 @@ const Project = ({ title, date, imgSrc, altText, link, description }) => {
                     <p className="project-text-date">{date}</p>
                 </div>
             </div>
+            {/* <p className="project-description-mobile">{description}</p> */}
         </>
     );
 };

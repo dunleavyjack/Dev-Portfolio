@@ -38,7 +38,6 @@ const PersonalProjects = () => {
             />
 
             <TextSpacer />
-            <TextSpacer />
             <Project
                 title={'Spotify Mood Ring'}
                 date={'March 2021'}
@@ -51,9 +50,8 @@ const PersonalProjects = () => {
             />
 
             <TextSpacer />
-            <TextSpacer />
             <Project
-                title={'Very Very Far'}
+                title={'Very, Very Far'}
                 date={'February 2021'}
                 imgSrc={veryfar1}
                 altText={'project 3'}

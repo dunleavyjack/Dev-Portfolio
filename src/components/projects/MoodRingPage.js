@@ -229,7 +229,7 @@ const MoodRingPage = () => {
                     about setting it up.
                     <br />
                     <br />
-                    <span className="green">
+                    <span className="black">
                         Moods are strange and ineffable, but I hope Mood Ring
                         connected with some people :)
                     </span>

@@ -9,6 +9,7 @@ import code1 from '../../images/projectImages/code/sclub-code-1.png';
 import code2 from '../../images/projectImages/code/sclub-code-2.png';
 import code3 from '../../images/projectImages/code/sclub-code-3.png';
 import code4 from '../../images/projectImages/code/sclub-code-4.png';
+import SeeMore from '../SeeMore';
 
 const SseuregiClubPage = () => {
     return (
@@ -243,6 +244,7 @@ const SseuregiClubPage = () => {
                     <span className="black">Express</span>. With a little time,
                     I am hoping it can get better and better!
                 </p>
+                <SeeMore />
             </div>
         </div>
     );
