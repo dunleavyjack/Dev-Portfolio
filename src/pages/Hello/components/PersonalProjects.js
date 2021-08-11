@@ -56,7 +56,7 @@ const PersonalProjects = () => {
                 imgSrc={veryfar1}
                 altText={'project 3'}
                 link={'veryveryfar'}
-                description="Your running, cycling, and swimming totals added up."
+                description="Your running, cycling, and swimming totals uniquely summed up."
             />
         </>
     );

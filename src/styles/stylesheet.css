@@ -4,15 +4,25 @@ html {
 
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.main-container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 .page-container {
     display: flex;
     justify-content: center;
+    position: relative;
+    min-height: 100vh;
 }
 
 .page {
     max-width: 1000px;
+    margin: 8px;
 }
 
 @media screen and (max-width: 700px) {
@@ -345,4 +355,54 @@ body {
 
 .text-spacer {
     height: 20px;
+}
+
+.footer-container {
+    flex: 1;
+    display: flex;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: #989898;
+    background-color: black;
+    overflow: hidden;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 50px;
+    max-width: 160px;
+}
+
+.footer-text {
+    padding-bottom: 0;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.footer-image {
+    height: 60%;
+    width: 60%;
+}
+
+.footer-link {
+    text-align: center;
+}
+
+.footer-email {
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    padding-bottom: 40px;
+    line-height: 0;
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import HomePage from '../pages/Hello/HomePage';
 import WritingPage from '../pages/Writing/WritingPage';
 import ProjectPage from '../pages/ProjectDisplay/ProjectPage';
@@ -15,7 +16,7 @@ import VeryFarPage from '../components/projects/VeryFarPage';
 class AppRouter extends React.Component {
     render() {
         return (
-            <>
+            <div className="main-container">
                 <Navbar />
                 <BrowserRouter>
                     <div className="main">
@@ -44,7 +45,8 @@ class AppRouter extends React.Component {
                         </Switch>
                     </div>
                 </BrowserRouter>
-            </>
+                <Footer />
+            </div>
         );
     }
 }
