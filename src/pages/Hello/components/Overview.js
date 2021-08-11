@@ -1,10 +1,9 @@
 import React from 'react';
-import InfoHeader from '../../../components/InfoHeader';
 
 const Overview = () => {
     return (
         <>
-            <InfoHeader text="Developer, Designer" />
+            <h1 className="dev-design">Developer, Designer</h1>
             <p className="info-detail">
                 Front-end developer building responsive, professional, and
                 creative web applications using React, Redux, Figma, and

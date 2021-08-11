@@ -151,6 +151,8 @@
 .project-info-header {
     font-weight: 300;
     font-size: 20px;
+    display: relative;
+    bottom: -30px;
     text-decoration: none;
     color: black;
 }
