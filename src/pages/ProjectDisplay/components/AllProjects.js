@@ -1,12 +1,13 @@
 import React from 'react';
 import InfoHeader from '../../../components/InfoHeader';
 import Project from '../../../components/Project';
-import sclub from '../../../images/projectImages/sseuregiclubHR.png';
+import sclub1 from '../../../images/projectImages/SseuregiClub/seuclub-mockup-1.png';
 import veryveryfar from '../../../images/projectImages/VeryVeryFar/veryfar-mockup-1.png';
 import Spacer from '../../../components/Spacer';
 import ctcovid from '../../../images/projectImages/CovidCT/ctcovid-mockup-1.png';
 import moodring1 from '../../../images/projectImages/MoodRing/moodring-mockup-1.png';
 import pygame from '../../../images/projectImages/Pygame/pygame-mockup-1.png';
+import filter1 from '../../../images/projectImages/Filter/filter-mockup-1.png';
 
 const AllProjects = () => {
     return (
@@ -19,7 +20,7 @@ const AllProjects = () => {
             <Project
                 title={'Sseuregi Club'}
                 date={'April 2021'}
-                imgSrc={sclub}
+                imgSrc={sclub1}
                 alttext={'project 2'}
                 link="sseuregiclub"
                 description="A public recyling and trash bin finder."
@@ -67,7 +68,7 @@ const AllProjects = () => {
             <Project
                 title={'Score Dog'}
                 date={'April 2021'}
-                imgSrc={sclub}
+                imgSrc={sclub1}
                 alttext={'project 2'}
                 link="scoredog"
                 description="Adds IMDb and Rotten Tomatoes scores to you Netflix."
@@ -77,7 +78,7 @@ const AllProjects = () => {
             <Project
                 title={'Top Top Top'}
                 date={'April 2021'}
-                imgSrc={sclub}
+                imgSrc={sclub1}
                 alttext={'project 2'}
                 link="toptoptop"
                 description="Jump to the most popuplar posts from any subreddit."
@@ -88,10 +89,10 @@ const AllProjects = () => {
             <Project
                 title={'Spark AR Instagram Filter'}
                 date={'April 2021'}
-                imgSrc={sclub}
+                imgSrc={filter1}
                 alttext={'project 2'}
                 link="igfilter"
-                description="AR Instagram Quiz Filter with JavaScript"
+                description="AR Instagram Quiz Filter built with JavaScript"
             />
 
             <Spacer />
