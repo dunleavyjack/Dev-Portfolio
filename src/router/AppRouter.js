@@ -12,6 +12,7 @@ import CTCovidDaily from '../components/projects/CTCovidDaily';
 import MoodRingPage from '../components/projects/MoodRingPage';
 import SseuregiClubPage from '../components/projects/SseuregiClubPage';
 import VeryFarPage from '../components/projects/VeryFarPage';
+import FourForTenPage from '../components/projects/FourForTenPage';
 
 class AppRouter extends React.Component {
     render() {
@@ -41,6 +42,10 @@ class AppRouter extends React.Component {
                             <Route
                                 path="/coviddaily"
                                 component={CTCovidDaily}
+                            />
+                            <Route
+                                path="/fourforten"
+                                component={FourForTenPage}
                             />
                         </Switch>
                     </div>

@@ -6,6 +6,7 @@ import veryveryfar from '../../../images/projectImages/VeryVeryFar/veryfar-mocku
 import Spacer from '../../../components/Spacer';
 import ctcovid from '../../../images/projectImages/CovidCT/ctcovid-mockup-1.png';
 import moodring1 from '../../../images/projectImages/MoodRing/moodring-mockup-1.png';
+import pygame from '../../../images/projectImages/Pygame/pygame-mockup-1.png';
 
 const AllProjects = () => {
     return (
@@ -96,9 +97,9 @@ const AllProjects = () => {
             <Spacer />
             <InfoHeader text={'PYTHON'} link={'projects'} id="python" />
             <Project
-                title={'Sseuregi Club'}
-                date={'April 2021'}
-                imgSrc={sclub}
+                title={'Four For Ten'}
+                date={'July 2020'}
+                imgSrc={pygame}
                 alttext={'project 2'}
                 link="fourforten"
                 description="90s pixel-art scrolling game set in a Korean Convience Store."

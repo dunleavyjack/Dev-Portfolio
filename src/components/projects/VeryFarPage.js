@@ -1,7 +1,6 @@
 import React from 'react';
 import NavSpacer from '../../components/NavSpacer';
 import IndividualProjectHeader from '../../pages/ProjectDisplay/components/IndividualProjects/IndividualProjectHeader';
-import moodring from '../../images/projectImages/moodringHR.png';
 import veryfar1 from '../../images/projectImages/VeryVeryFar/veryfar-mockup-1.png';
 import veryfar2 from '../../images/projectImages/VeryVeryFar/veryfar-mockup-2.png';
 import veryfar3 from '../../images/projectImages/VeryVeryFar/veryfar-mockup-3.png';

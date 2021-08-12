@@ -4,7 +4,6 @@ import IndividualProjectHeader from '../../pages/ProjectDisplay/components/Indiv
 import sclub1 from '../../images/projectImages/SseuregiClub/seuclub-mockup-1.png';
 import sclub2 from '../../images/projectImages/SseuregiClub/seuclub-mockup-2.png';
 import sclub3 from '../../images/projectImages/SseuregiClub/seuclub-mockup-3.png';
-import moodring from '../../images/projectImages/moodringHR.png';
 import StaticProjectImage from '../../pages/ProjectDisplay/components/IndividualProjects/StaticProjectImage';
 import CodeBox from '../CodeBox';
 import TextSpacer from '../TextSpacer';
