@@ -5,6 +5,7 @@ import Links from '../../Contact/components/ContactLinks';
 import TextSpacer from '../../../components/TextSpacer';
 import sclub1 from '../../../images/projectImages/SseuregiClub/seuclub-mockup-1.png';
 import veryfar1 from '../../../images/projectImages/VeryVeryFar/veryfar-mockup-1.png';
+import LinkIcons from '../../../components/LinkIcons';
 
 const PersonalProjects = () => {
     const links = [
@@ -26,6 +27,7 @@ const PersonalProjects = () => {
         <>
             <TextSpacer />
             <Links data={links} />
+            {/* <LinkIcons /> */}
             <TextSpacer />
             {/* <InfoHeader text={'Featured Projects'} link={'projects'} /> */}
             <Project

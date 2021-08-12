@@ -207,3 +207,15 @@
 .experience-container {
     position: relative;
 }
+
+.link-component-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-component-image {
+    height: 40px;
+    width: 40px;
+    padding: 30px;
+}

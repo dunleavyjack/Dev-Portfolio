@@ -13,6 +13,7 @@ import MoodRingPage from '../components/projects/MoodRingPage';
 import SseuregiClubPage from '../components/projects/SseuregiClubPage';
 import VeryFarPage from '../components/projects/VeryFarPage';
 import FourForTenPage from '../components/projects/FourForTenPage';
+import IGFilterPage from '../components/projects/IGFilterPage';
 
 class AppRouter extends React.Component {
     render() {
@@ -46,6 +47,10 @@ class AppRouter extends React.Component {
                             <Route
                                 path="/fourforten"
                                 component={FourForTenPage}
+                            />
+                            <Route
+                                path="/instagramfilter"
+                                component={IGFilterPage}
                             />
                         </Switch>
                     </div>
