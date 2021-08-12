@@ -82,12 +82,14 @@ body {
 
 .job-container {
     padding-bottom: 50px;
+    max-width: 900px;
 }
 
 .job-description {
     font-style: 'light';
     font-size: 15px;
     margin: 0;
+    line-height: 25px;
     color: #989898;
 }
 
@@ -96,6 +98,13 @@ body {
     font-size: 20px;
     color: rgba(0, 128, 96, 1);
     margin: 0;
+    transition: color 0.2s;
+}
+
+.job-title:hover,
+.job-title:active {
+    color: #fcaf38;
+    transition: color 0.2s;
 }
 
 .job-title span {
