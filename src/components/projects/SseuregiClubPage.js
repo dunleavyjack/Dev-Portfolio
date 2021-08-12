@@ -1,6 +1,9 @@
 import React from 'react';
 import NavSpacer from '../../components/NavSpacer';
 import IndividualProjectHeader from '../../pages/ProjectDisplay/components/IndividualProjects/IndividualProjectHeader';
+import sclub1 from '../../images/projectImages/SseuregiClub/seuclub-mockup-1.png';
+import sclub2 from '../../images/projectImages/SseuregiClub/seuclub-mockup-2.png';
+import sclub3 from '../../images/projectImages/SseuregiClub/seuclub-mockup-3.png';
 import moodring from '../../images/projectImages/moodringHR.png';
 import StaticProjectImage from '../../pages/ProjectDisplay/components/IndividualProjects/StaticProjectImage';
 import CodeBox from '../CodeBox';
@@ -27,7 +30,7 @@ const SseuregiClubPage = () => {
                 <h1 className="project-about">About 🚮</h1>
                 <p className="project-description">
                     <a
-                        href="https://moodring.vercel.app"
+                        href="https://sseuregi.club"
                         className="project-text-link"
                     >
                         Sseuregi Club
@@ -40,14 +43,15 @@ const SseuregiClubPage = () => {
                     recycling and trash bins nearby. The user can then select a
                     bin and get directions to its location.
                 </p>
-                <StaticProjectImage image={moodring} />
-                <StaticProjectImage image={moodring} />
+                <StaticProjectImage image={sclub1} />
+                <StaticProjectImage image={sclub2} />
                 <p className="project-description">
                     Currently, there are around{' '}
                     <span className="black">80 bins </span> mapped out across
                     the city, but I’m hoping for that number to expand as the
                     application grows.
                 </p>
+                <StaticProjectImage image={sclub3} />
 
                 <TextSpacer />
                 <h1 className="project-about">The Concept 💡</h1>
