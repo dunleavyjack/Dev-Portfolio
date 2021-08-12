@@ -1,7 +1,9 @@
 import React from 'react';
 import NavSpacer from '../../components/NavSpacer';
 import IndividualProjectHeader from '../../pages/ProjectDisplay/components/IndividualProjects/IndividualProjectHeader';
-import moodring from '../../images/projectImages/moodringHR.png';
+import moodring1 from '../../images/projectImages/MoodRing/moodring-mockup-1.png';
+import moodring2 from '../../images/projectImages/MoodRing/moodring-mockup-2.png';
+import moodring3 from '../../images/projectImages/MoodRing/moodring-mockup-3.png';
 import TakeALook from '../../pages/ProjectDisplay/components/IndividualProjects/TakeALook';
 import SeeMore from '../../components/SeeMore';
 import StaticProjectImage from '../../pages/ProjectDisplay/components/IndividualProjects/StaticProjectImage';
@@ -41,7 +43,7 @@ const MoodRingPage = () => {
                     </span>
                     .
                 </p>
-                <StaticProjectImage image={moodring} />
+                <StaticProjectImage image={moodring1} />
 
                 <h1 className="project-about">The Concept 💡</h1>
                 <p className="project-description">
@@ -58,8 +60,8 @@ const MoodRingPage = () => {
                     themselves, somewhat like a horoscope. An extension of that
                     idea, I decided on a mood detector.
                 </p>
-                <StaticProjectImage image={moodring} />
-                <StaticProjectImage image={moodring} />
+                <StaticProjectImage image={moodring2} />
+                <StaticProjectImage image={moodring3} />
 
                 <h1 className="project-about">The Tech 👨🏼‍💻</h1>
                 <ul className="project-tech">

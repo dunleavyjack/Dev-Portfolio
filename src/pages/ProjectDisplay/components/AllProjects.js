@@ -2,7 +2,7 @@ import React from 'react';
 import InfoHeader from '../../../components/InfoHeader';
 import Project from '../../../components/Project';
 import sclub from '../../../images/projectImages/sseuregiclubHR.png';
-import veryveryfar from '../../../images/projectImages/veryveryfar.png';
+import veryveryfar from '../../../images/projectImages/VeryVeryFar/veryfar-mockup-1.png';
 import Spacer from '../../../components/Spacer';
 import ctcovid from '../../../images/projectImages/CovidCT/ctcovid-mockup-1.png';
 import moodring1 from '../../../images/projectImages/MoodRing/moodring-mockup-1.png';

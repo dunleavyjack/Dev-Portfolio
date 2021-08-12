@@ -2,6 +2,9 @@ import React from 'react';
 import NavSpacer from '../../components/NavSpacer';
 import IndividualProjectHeader from '../../pages/ProjectDisplay/components/IndividualProjects/IndividualProjectHeader';
 import moodring from '../../images/projectImages/moodringHR.png';
+import veryfar1 from '../../images/projectImages/VeryVeryFar/veryfar-mockup-1.png';
+import veryfar2 from '../../images/projectImages/VeryVeryFar/veryfar-mockup-2.png';
+import veryfar3 from '../../images/projectImages/VeryVeryFar/veryfar-mockup-3.png';
 import StaticProjectImage from '../../pages/ProjectDisplay/components/IndividualProjects/StaticProjectImage';
 import code1 from '../../images/projectImages/code/veryveryfarcode1.png';
 import code2 from '../../images/projectImages/code/veryveryfarcode2.png';
@@ -24,10 +27,6 @@ const VeryFarPage = () => {
                 />
                 <h1 className="project-about">About 🏃</h1>
                 <p className="project-description">
-                    Have you made it across the United States? What about the
-                    entire Earth? How close have you gotten to the Moon?
-                    <br />
-                    <br />
                     This past March, I built{' '}
                     <a
                         className="project-text-link"
@@ -38,8 +37,13 @@ const VeryFarPage = () => {
                     . It examines a user’s activities on the popular athletic
                     social media platform <span className="black">Strava</span>{' '}
                     and analyizes them in a unique way.
+                    <br />
+                    <br />
+                    Have you made it across the United States? What about the
+                    entire Earth? How close have you gotten to the Moon?
                 </p>
-                <StaticProjectImage image={moodring} />
+                <StaticProjectImage image={veryfar3} />
+                <StaticProjectImage image={veryfar1} />
                 <p className="project-description">
                     Once a user signs in with their Strava account, they can
                     select and combine their{' '}
@@ -56,7 +60,7 @@ const VeryFarPage = () => {
                     their preferences.
                 </p>
 
-                <StaticProjectImage image={moodring} />
+                <StaticProjectImage image={veryfar2} />
 
                 <h1 className="project-about">The Concept 💡</h1>
                 <p className="project-description">
@@ -64,12 +68,18 @@ const VeryFarPage = () => {
                         We spend all this time moving, but how far do we
                         actually go?
                     </span>{' '}
-                    As a lifelong runner, I’m well acquainted with Strava. It’s
-                    the most popular social media platform among all the runners
-                    I’ve ever met. I just finished a project that used a public
-                    Web API and I was excited to find that Strava has its own.
-                    The documentation looked great and I knew I wanted to create
-                    something with it.
+                    As a lifelong runner, I’m well acquainted with{' '}
+                    <a
+                        href="https://www.strava.com/"
+                        className="project-text-link"
+                    >
+                        Strava
+                    </a>
+                    . It’s the most popular social media platform among all the
+                    runners I’ve ever met. I just finished a project that used a
+                    public Web API and I was excited to find that Strava has its
+                    own. The documentation looked great and I knew I wanted to
+                    create something with it.
                     <br />
                     <br />
                     One thing I know is that runners love data. It’s the reason
@@ -128,9 +138,10 @@ const VeryFarPage = () => {
                 <TextSpacer />
                 <h1 className="project-about">State Management ⚙️</h1>
                 <p className="project-description">
-                    Across the app, I handled state using a Redux store. I read
-                    that smaller projects don’t always necessitate one, but I
-                    wanted to get some practice using the technology.
+                    Across the app, I handled state using{' '}
+                    <span className="black">a Redux store</span>. I read that
+                    smaller projects don’t always necessitate one, but I wanted
+                    to get some practice using the technology.
                     <br />
                     <br />
                     The first thing I needed to keep track of was what units the
@@ -147,10 +158,10 @@ const VeryFarPage = () => {
                     currently live in South Korea.
                     <br />
                     <br />
-                    Putting totalDistance, which represents the total of all
-                    activities the user has selected, into the store also makes
-                    it easier to call that value whenever calculations are
-                    needed across the app.
+                    Putting <span className="black">totalDistance</span>, which
+                    represents the total of all activities the user has
+                    selected, into the store also makes it easier to call that
+                    value whenever calculations are needed across the app.
                     <br />
                     <br />
                     Next, I needed to store the user’s athletic totals based on
@@ -169,8 +180,14 @@ const VeryFarPage = () => {
                     sports from the user’s selection.
                     <br />
                     <br />I also set up similar reducers for each action and
-                    installed the Chrome Redux DevTools Extension to visualize
-                    everything along the way.
+                    installed the{' '}
+                    <a
+                        className="project-text-link"
+                        href="https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en"
+                    >
+                        Chrome Redux DevTools Extension
+                    </a>{' '}
+                    to visualize everything along the way.
                 </p>
                 <TextSpacer />
                 <h1 className="project-about">Challenges and Solutions 🚧</h1>
@@ -191,9 +208,16 @@ const VeryFarPage = () => {
                     Strava.
                     <br />
                     <br />
-                    So, I figured it out and wrote a tutorial to save others
-                    some time. It was published by Javascript in Plain English
-                    here on Medium and hopefully, it can help someone out.
+                    So, I figured it out and{' '}
+                    <a
+                        className="project-text-link"
+                        href="https://levelup.gitconnected.com/add-strava-oauth2-login-to-your-react-app-in-15-minutes-6c92e845919e"
+                    >
+                        wrote a tutorial{' '}
+                    </a>{' '}
+                    to save others some time. It was published by Javascript in
+                    Plain English here on Medium and hopefully, it can help
+                    someone out.
                 </p>
                 <h1 className="project-sub-about">
                     mapStateToProps → useSelector()
@@ -206,11 +230,13 @@ const VeryFarPage = () => {
                     <br />
                     <br />
                     It wasn’t until I posted the project online that a few
-                    people pointed out the enormously helpful useSelector() and
-                    useDispath() hooks. It’s so much cleaner, so I went back and
-                    refactored everything that accessed the state. It was a bit
-                    of a headache to change something that was already working
-                    fine, but and I’m really glad I did.
+                    people pointed out the enormously helpful{' '}
+                    <span className="black">useSelector()</span> and
+                    <span className="black"> useDispath()</span> hooks. It’s so
+                    much cleaner, so I went back and refactored everything that
+                    accessed the state. It was a bit of a headache to change
+                    something that was already working fine, but and I’m really
+                    glad I did.
                 </p>
                 <TextSpacer />
                 <h1 className="project-about">Conclusion ✨</h1>
