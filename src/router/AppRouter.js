@@ -48,10 +48,7 @@ class AppRouter extends React.Component {
                                 path="/fourforten"
                                 component={FourForTenPage}
                             />
-                            <Route
-                                path="/instagramfilter"
-                                component={IGFilterPage}
-                            />
+                            <Route path="/igfilter" component={IGFilterPage} />
                         </Switch>
                     </div>
                 </BrowserRouter>
