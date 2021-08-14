@@ -26,7 +26,10 @@ const ScoreDogPage = () => {
                     }
                 />
                 <h1 className="project-about">About 🎬</h1>
-                <p className="project-description">Choosing</p>
+                <p className="project-description">
+                    Choosing a movie to watch on Netflix is not always easy, so
+                    I wanted to think a way to help users make a choice.
+                </p>
                 <StaticProjectImage image={scoredog1} />
 
                 <TextSpacer />
