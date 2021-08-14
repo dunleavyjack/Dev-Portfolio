@@ -170,7 +170,7 @@ body {
 
 @media screen and (max-width: 700px) {
     .project-text-mobile {
-        display: inline-block;
+        display: inline;
     }
     .project-description-mobile {
         display: block;
