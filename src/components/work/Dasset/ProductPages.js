@@ -2,11 +2,10 @@ import React from 'react';
 import NavSpacer from '../../NavSpacer';
 import StaticProjectImage from '../../../pages/ProjectDisplay/components/IndividualProjects/StaticProjectImage';
 import IndividualProjectHeader from '../../../pages/ProjectDisplay/components/IndividualProjects/IndividualProjectHeader';
-// import gif1 from '../../../images/workImages/gifff.gif';
 import dasset1 from '../../../images/workImages/dasset-mockup-2.gif';
-// import dasset4 from '../../../images/workImages/dasset-mockup-4.png';
 import dasset5 from '../../../images/workImages/dasset-mockup-5.gif';
 import SeeMoreWork from '../../../components/SeeMoreWork';
+// import TextSpacer from '../../TextSpacer';
 
 const ProductPages = () => {
     return (
@@ -45,6 +44,38 @@ const ProductPages = () => {
                     updates the page’s display accordingly.
                 </p>
                 <StaticProjectImage image={dasset5} />
+
+                <h1 className="project-about">Features</h1>
+                <ul className="project-tech">
+                    <li>
+                        <span className="green">React</span>
+                    </li>
+                    <li>
+                        <span className="green">React-Router</span>
+                    </li>
+                    <li>
+                        <span className="green">Redux</span>
+                    </li>
+                    <li>
+                        <span className="green">OAuth2 Flow</span>
+                    </li>
+                    <li>
+                        <span className="green">The Spotify API</span>
+                    </li>
+                    <li>
+                        <span className="green">Axios </span> (for API requests)
+                    </li>
+                    <li>
+                        <span className="green">Figma </span>(for UI design)
+                    </li>
+                    <li>
+                        <span className="green">Git</span>
+                    </li>
+                    <li>
+                        <span className="green">Vercel </span>(for deployment)
+                    </li>
+                </ul>
+
                 <SeeMoreWork />
             </div>
         </div>
