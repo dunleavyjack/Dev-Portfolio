@@ -14,6 +14,8 @@ import SseuregiClubPage from '../components/projects/SseuregiClubPage';
 import VeryFarPage from '../components/projects/VeryFarPage';
 import FourForTenPage from '../components/projects/FourForTenPage';
 import IGFilterPage from '../components/projects/IGFilterPage';
+import ScoreDogPage from '../components/projects/ScoreDogPage';
+import DassetProductPages from '../components/work/Dasset/ProductPages';
 
 class AppRouter extends React.Component {
     render() {
@@ -49,6 +51,11 @@ class AppRouter extends React.Component {
                                 component={FourForTenPage}
                             />
                             <Route path="/igfilter" component={IGFilterPage} />
+                            <Route path="/scoredog" component={ScoreDogPage} />
+                            <Route
+                                path="/cryptopages"
+                                component={DassetProductPages}
+                            />
                         </Switch>
                     </div>
                 </BrowserRouter>

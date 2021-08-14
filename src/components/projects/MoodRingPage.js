@@ -145,7 +145,7 @@ const MoodRingPage = () => {
                     Here’s a simple example from the very first mood my program
                     detects:
                 </p>
-                <CodeBox image={code1} imageHeight={'200px'} />
+                <CodeBox image={code1} imageHeight={'180px'} />
                 <p className="project-description">
                     Here, a user has been listening to songs that have{' '}
                     <span className="black">more happiness</span> (feeling good)
@@ -237,20 +237,9 @@ const MoodRingPage = () => {
                     </span>
                 </p>
                 <TakeALook
-                    links={[
-                        {
-                            text: 'moodring.me',
-                            url: 'https://mooding.vercel.app',
-                        },
-                        {
-                            text: 'Full Code on Github',
-                            url: 'https://mooding.vercel.app',
-                        },
-                        {
-                            text: 'Medium Write Up',
-                            url: 'https://mooding.vercel.app',
-                        },
-                    ]}
+                    githubLink="https://github.com/dunleavyjack/Spotify-Mood-Ring"
+                    mediumLink="https://javascript.plainenglish.io/portfolio-project-spotify-mood-ring-dba09b6da1e0"
+                    mediumText="Full write up on Medium"
                 />
                 <SeeMore />
             </div>

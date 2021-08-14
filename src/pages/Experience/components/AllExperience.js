@@ -17,7 +17,7 @@ const AllExperience = () => {
                 date={'July 2021'}
                 imgSrc={sclub}
                 alttext={'project 2'}
-                link="sseuregiclub"
+                link="cryptopages"
             />
             <Spacer />
             <InfoHeader text={'PlanLogic'} link={'projects'} id={'react'} />

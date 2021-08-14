@@ -10,6 +10,7 @@ import code2 from '../../images/projectImages/code/veryveryfarcode2.png';
 import CodeBox from '../CodeBox';
 import TextSpacer from '../TextSpacer';
 import SeeMore from '../SeeMore';
+import TakeALook from '../../pages/ProjectDisplay/components/IndividualProjects/TakeALook';
 
 const VeryFarPage = () => {
     return (
@@ -246,6 +247,12 @@ const VeryFarPage = () => {
                     lot of fun sharing this one with friends, and it was great
                     to hear their feedback and suggestions.
                 </p>
+                <TakeALook
+                    githubLink="https://github.com/dunleavyjack/Strava-Very-Very-Far"
+                    mediumLink="https://javascript.plainenglish.io/portfolio-project-very-very-far-f77d1241a626"
+                    mediumText="Project write-up for JavaScript In Plain English"
+                />
+
                 <SeeMore />
             </div>
         </div>

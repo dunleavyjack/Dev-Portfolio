@@ -12,6 +12,7 @@ import code2 from '../../images/projectImages/code/sclub-code-2.png';
 import code3 from '../../images/projectImages/code/sclub-code-3.png';
 import code4 from '../../images/projectImages/code/sclub-code-4.png';
 import SeeMore from '../SeeMore';
+import TakeALook from '../../pages/ProjectDisplay/components/IndividualProjects/TakeALook';
 
 const SseuregiClubPage = () => {
     return (
@@ -51,7 +52,6 @@ const SseuregiClubPage = () => {
                     application grows.
                 </p>
                 <StaticProjectImage image={sclub3} />
-
                 <TextSpacer />
                 <h1 className="project-about">The Concept 💡</h1>
                 <p className="project-description">
@@ -79,7 +79,6 @@ const SseuregiClubPage = () => {
                     I figured it would be a good jumping-off point for my
                     project and decided to get started.
                 </p>
-
                 <TextSpacer />
                 <h1 className="project-about">The Tech 👨🏼‍💻</h1>
                 <p className="project-description">
@@ -119,7 +118,6 @@ const SseuregiClubPage = () => {
                         <span className="green">Vercel </span>(for deployment)
                     </li>
                 </ul>
-
                 <TextSpacer />
                 <h1 className="project-about">The Program 👨‍🔬</h1>
                 <p className="project-description">
@@ -167,7 +165,6 @@ const SseuregiClubPage = () => {
                     and displayed in the UI.
                 </p>
                 <CodeBox image={code4} imageHeight={'119px'} />
-
                 <TextSpacer />
                 <h1 className="project-about">Gathering the Data 🚴‍♂️</h1>
                 <p className="project-description">
@@ -184,7 +181,6 @@ const SseuregiClubPage = () => {
                     coordinates. Later on, I would add the data to the program
                     on my machine at home.
                 </p>
-
                 <TextSpacer />
                 <h1 className="project-about">Designing the UI 🎨</h1>
                 <p className="project-description">
@@ -199,7 +195,6 @@ const SseuregiClubPage = () => {
                     I still can’t believe that program is totally free and I use
                     it for all my blueprints and mockups.
                 </p>
-
                 <TextSpacer />
                 <h1 className="project-about">Challanges and Solutions 🚧</h1>
                 <h1 className="project-sub-about">
@@ -236,7 +231,6 @@ const SseuregiClubPage = () => {
                     feel for how the application works. The location, by the
                     way: my old apartment.
                 </p>
-
                 <TextSpacer />
                 <h1 className="project-about">Next Steps 🚀</h1>
                 <p className="project-description">
@@ -247,6 +241,11 @@ const SseuregiClubPage = () => {
                     <span className="black">Express</span>. With a little time,
                     I am hoping it can get better and better!
                 </p>
+                <TakeALook
+                    githubLink="https://github.com/dunleavyjack/Sseuregi-Club-V2"
+                    mediumLink="https://javascript.plainenglish.io/building-a-recycling-bin-finder-with-react-ba08cf09bda5"
+                    mediumText="Project write-up for JavaScript In Plain English"
+                />
                 <SeeMore />
             </div>
         </div>

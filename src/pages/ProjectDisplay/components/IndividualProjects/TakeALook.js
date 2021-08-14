@@ -1,20 +1,21 @@
 import React from 'react';
 
-const TakeALook = ({ links }) => {
-    const linkList = links.map((link) => {
-        return (
-            <li>
-                <a className="project-link-list" href={link.url}>
-                    {link.text}
-                </a>
-            </li>
-        );
-    });
-
+const TakeALook = ({ githubLink, mediumLink, mediumText }) => {
     return (
         <div className="static-project-spacing">
-            <h1 className="project-about">Want to See More?</h1>
-            <ul className="project-link-list-container">{linkList}</ul>
+            <h1 className="project-about">See More 🔎</h1>
+            <ul className="project-link-list-container">
+                <li>
+                    <a className="project-link-list" href={githubLink}>
+                        Full code on GitHub
+                    </a>
+                </li>
+                <li>
+                    <a className="project-link-list" href={mediumLink}>
+                        {mediumText}
+                    </a>
+                </li>
+            </ul>
         </div>
     );
 };

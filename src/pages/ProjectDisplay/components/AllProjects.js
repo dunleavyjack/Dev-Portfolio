@@ -7,7 +7,8 @@ import Spacer from '../../../components/Spacer';
 import ctcovid from '../../../images/projectImages/CovidCT/ctcovid-mockup-1.png';
 import moodring1 from '../../../images/projectImages/MoodRing/moodring-mockup-1.png';
 import pygame from '../../../images/projectImages/Pygame/pygame-mockup-1.png';
-import filter1 from '../../../images/projectImages/Filter/filter-mockup-1.png';
+import filter3 from '../../../images/projectImages/Filter/filter-mockup-3.png';
+import scoredog from '../../../images/projectImages/ScoreDog/scoredog-mockup-1.png';
 
 const AllProjects = () => {
     return (
@@ -40,7 +41,7 @@ const AllProjects = () => {
 
             <Spacer />
             <Project
-                title={'Very Very Far'}
+                title={'Very, Very Far'}
                 date={'February 2021'}
                 imgSrc={veryveryfar}
                 alttext={'project 3'}
@@ -68,13 +69,13 @@ const AllProjects = () => {
             <Project
                 title={'Score Dog'}
                 date={'April 2021'}
-                imgSrc={sclub1}
+                imgSrc={scoredog}
                 alttext={'project 2'}
                 link="scoredog"
-                description="Adds IMDb and Rotten Tomatoes scores to you Netflix."
+                description="Add IMDb and Rotten Tomatoes scores to your Netflix."
             />
 
-            <Spacer />
+            {/* <Spacer />
             <Project
                 title={'Top Top Top'}
                 date={'April 2021'}
@@ -82,17 +83,17 @@ const AllProjects = () => {
                 alttext={'project 2'}
                 link="toptoptop"
                 description="Jump to the most popuplar posts from any subreddit."
-            />
+            /> */}
 
             <Spacer />
             <InfoHeader text={'AUGEMENTED REALITY'} link={'projects'} id="ar" />
             <Project
-                title={'Spark AR Instagram Filter'}
+                title={'Which Convenience Store Are You?'}
                 date={'April 2021'}
-                imgSrc={filter1}
+                imgSrc={filter3}
                 alttext={'project 2'}
                 link="igfilter"
-                description="AR Instagram Quiz Filter built with JavaScript"
+                description="An AR Instagram Filter built with JavaScript"
             />
 
             <Spacer />

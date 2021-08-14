@@ -219,3 +219,9 @@
     width: 40px;
     padding: 30px;
 }
+
+.project-description-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
