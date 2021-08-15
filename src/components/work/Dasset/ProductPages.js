@@ -8,6 +8,7 @@ import dasset5 from '../../../images/workImages/dasset-mockup-5.gif';
 import dasset6 from '../../../images/workImages/dasset-mockup-6.png';
 import dasset7 from '../../../images/workImages/dasset-mockup-7.png';
 import dasset8 from '../../../images/workImages/dasset-mockup-8.png';
+import dasset9 from '../../../images/workImages/dasset-mockup-9.png';
 import SeeMoreWork from '../../../components/SeeMoreWork';
 import TextSpacer from '../../TextSpacer';
 
@@ -153,9 +154,12 @@ const ProductPages = () => {
                 <h1 className="project-sub-about">Mobile Responsiveness</h1>
                 <p className="project-description">
                     It was also neccesary to make sure everything displayed
-                    properly for both desktop and mobile users. This project
-                    helped me develop the kind of design thinking neccesary for
-                    building modern web pages and applications.
+                    properly for both desktop and mobile users.
+                </p>
+                <StaticProjectImage image={dasset9} />
+                <p className="project-description">
+                    This project helped me develop the kind of design thinking
+                    neccesary for building modern web pages and applications.
                 </p>
 
                 <SeeMoreWork />
