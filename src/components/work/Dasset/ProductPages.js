@@ -86,7 +86,7 @@ const ProductPages = () => {
                 <StaticProjectImage image={dasset2} />
                 <p className="project-description">
                     I built the graph using{' '}
-                    <span classNAme="black">Chart.js</span> and the displayed
+                    <span className="black">Chart.js</span> and the displayed
                     data comes from a third-party API. It was custom styled for
                     a minimal and modern feel.
                 </p>
@@ -171,7 +171,8 @@ const ProductPages = () => {
                 <p className="project-description">
                     I learned a massive amount from this project. In addition to
                     expanding my programming ability, it was also a great
-                    experience to interact with a team of developers.{' '}
+                    experience to interact with a team of developers. <br />
+                    <br />
                     <span className="black">
                         This project helped me develop the problem solving
                         techniques and design-thinking that are neccesary for
