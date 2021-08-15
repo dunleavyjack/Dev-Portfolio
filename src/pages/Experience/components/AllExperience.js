@@ -20,7 +20,7 @@ const AllExperience = () => {
                 date={'July 2021'}
                 imgSrc={dasset1}
                 alttext={'project 2'}
-                description="Real time crypto data tracking, trading, and information."
+                description="Real time cryptocurrency data tracking, buying and selling, API integration, and responsive design."
                 link="dassetpages"
             />
             <Project
