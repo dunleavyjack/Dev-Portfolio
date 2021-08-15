@@ -10,7 +10,7 @@ const AllExperience = () => {
     return (
         <>
             <InfoHeader
-                text={'DASSET Digital Asset Exchange Ltd.'}
+                text={'DASSET | Junior React Developer'}
                 link={'projects'}
                 id={'react'}
             />
@@ -32,7 +32,11 @@ const AllExperience = () => {
             />
 
             <Spacer />
-            <InfoHeader text={'PlanLogic'} link={'projects'} id={'react'} />
+            <InfoHeader
+                text={'PLANLOGIC | JavaScript Developer'}
+                link={'projects'}
+                id={'react'}
+            />
             <Project
                 title={'Insurance Calculation Algorithms'}
                 date={'April 2021'}
