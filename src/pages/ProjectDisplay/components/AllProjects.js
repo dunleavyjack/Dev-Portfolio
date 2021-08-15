@@ -57,7 +57,7 @@ const AllProjects = () => {
                 imgSrc={ctcovid}
                 alttext={'ct covid daily'}
                 link="coviddaily"
-                description="A COVID-19 data tracker for Connecticut"
+                description="A COVID-19 data tracker for Connecticut."
             />
 
             <Spacer />
@@ -93,7 +93,7 @@ const AllProjects = () => {
                 imgSrc={filter3}
                 alttext={'project 2'}
                 link="igfilter"
-                description="An AR Instagram Filter built with JavaScript"
+                description="An AR Instagram Filter built with JavaScript."
             />
 
             <Spacer />
