@@ -163,7 +163,7 @@ const ProductPages = () => {
                     Constantly thought the development of this project, I used{' '}
                     <span className="black">Chrome Dev Tools</span> to ensure
                     that the design and functionality remained accessible
-                    reagrdless of screen size or orientation.
+                    regardless of screen size or orientation.
                 </p>
 
                 <TextSpacer />
