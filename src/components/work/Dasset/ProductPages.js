@@ -158,10 +158,27 @@ const ProductPages = () => {
                 </p>
                 <StaticProjectImage image={dasset9} />
                 <p className="project-description">
-                    This project helped me develop the kind of design thinking
-                    neccesary for building modern web pages and applications.
+                    Since over 60% of users use the mobile version of the site,
+                    it important to take consideratinos for mobile design.
+                    Constantly thought the development of this project, I used{' '}
+                    <span className="black">Chrome Dev Tools</span> to ensure
+                    that the design and functionality remained accessible
+                    reagrdless of screen size or orientation.
                 </p>
 
+                <TextSpacer />
+                <h1 className="project-about">Overall</h1>
+                <p className="project-description">
+                    I learned a massive amount from this project. In addition to
+                    expanding my programming ability, it was also a great
+                    experience to interact with a team of developers.{' '}
+                    <span className="black">
+                        This project helped me develop the problem solving
+                        techniques and design-thinking that are neccesary for
+                        building accessible, modern web pages and applications
+                    </span>
+                    .
+                </p>
                 <SeeMoreWork />
             </div>
         </div>
