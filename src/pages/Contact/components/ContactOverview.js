@@ -15,7 +15,7 @@ const ContactOverview = () => {
         },
         {
             label: 'LINKEDIN',
-            ref: 'https://www.linkedin.com/in/jack-dunleavy-0b177b83/',
+            ref: 'https://www.linkedin.com/in/jackdunleavy/',
         },
     ];
 
