@@ -29,7 +29,7 @@ const Footer = () => {
                 </a>
                 <a
                     className="footer-link"
-                    href="https://www.linkedin.com/in/jack-dunleavy-0b177b83/"
+                    href="https://www.linkedin.com/in/jackdunleavy/"
                 >
                     <img
                         className="footer-image"
