@@ -41,9 +41,9 @@ const Navbar = () => {
                     </a>
                 </div>
                 <div className="navlinks" id="customNav">
-                    {/* <a href="/" className={toggleActive('/')}>
+                    <a href="/" className={toggleActive('/')}>
                         HELLO
-                    </a> */}
+                    </a>
                     <a href="/projects" className={toggleActive('/projects')}>
                         PROJECTS
                     </a>
@@ -53,11 +53,11 @@ const Navbar = () => {
                     >
                         WORK
                     </a>
-                    <a href="/writing" className={toggleActive('/writing')}>
+                    {/* <a href="/writing" className={toggleActive('/writing')}>
                         WRITING
-                    </a>
+                    </a> */}
                     <a href="/contact" className={toggleActive('/contact')}>
-                        CONTACT
+                        ABOUT
                     </a>
                 </div>
                 <div className="github">

@@ -21,7 +21,10 @@ const FourForTenPage = () => {
                 <h1 className="project-about">About 👾</h1>
                 <p className="project-description">
                     This project was a collaboration with designer{' '}
-                    <a className="project-text-link" href="https://jhyoon.work">
+                    <a
+                        className="project-text-link"
+                        href="www.linkedin.com/in/jeonghye"
+                    >
                         Jeonghye Yoon
                     </a>
                     , who brilliantly created the images and established the

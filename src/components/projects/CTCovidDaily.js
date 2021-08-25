@@ -21,7 +21,10 @@ const CTCovidDaily = () => {
                 <p className="project-description">
                     This project was a collaboration with UX and industrial
                     designer{' '}
-                    <a className="project-text-link" href="https://jhyoon.work">
+                    <a
+                        className="project-text-link"
+                        href="www.linkedin.com/in/jeonghye"
+                    >
                         Jeonghye Yoon
                     </a>
                     , who excellently designed the app's layout, icon, and logo.

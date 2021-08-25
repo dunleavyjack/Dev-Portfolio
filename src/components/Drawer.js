@@ -15,10 +15,10 @@ const useStyles = makeStyles({
 });
 
 const drawerLinks = [
-    // {
-    //     name: 'HELLO',
-    //     link: '/',
-    // },
+    {
+        name: 'HELLO',
+        link: '/',
+    },
     {
         name: 'PROJECTS',
         link: '/projects',
@@ -27,12 +27,12 @@ const drawerLinks = [
         name: 'WORK',
         link: '/experience',
     },
+    // {
+    //     name: 'WRITING',
+    //     link: '/writing',
+    // },
     {
-        name: 'WRITING',
-        link: '/writing',
-    },
-    {
-        name: 'CONTACT',
+        name: 'ABOUT',
         link: '/contact',
     },
 ];
