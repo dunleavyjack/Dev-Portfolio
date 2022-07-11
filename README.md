@@ -15,6 +15,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/jackdunleavy/)\
-[GitHub]('https://github.com/dunleavyjack')\
-[Medium]('https://jackdunleavy.medium.com')\
+[LinkedIn](https://www.linkedin.com/in/jackdunleavy/)
+[GitHub](https://github.com/dunleavyjack)
+[Medium](https://jackdunleavy.medium.com)
