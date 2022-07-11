@@ -3,10 +3,10 @@ import React from 'react';
 const Overview = () => {
     return (
         <>
-            <h1 className="dev-design">Developer, Designer</h1>
+            <h1 className="dev-design">Full-Stack Developer</h1>
             <p className="info-detail">
-                Front-end developer building responsive, professional, and
-                creative web applications using{' '}
+                Hi, I'm a full-stack developer building responsive,
+                professional, and creative web applications using{' '}
                 <span className="black">React</span>,{' '}
                 <span className="black">Redux</span>,{' '}
                 <span className="black">Figma</span>, and{' '}
