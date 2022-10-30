@@ -22,15 +22,12 @@ const MoodRingPage = () => {
                         'A mobile-first React web app that determines a user’s mood based on their recently played music on Spotify.'
                     }
                     linkText={'moodring.me'}
-                    link={'https://moodring.vercel.app'}
+                    link={'https://moodring.me'}
                 />
                 <h1 className="project-about">About 👋</h1>
                 <p className="project-description">
                     This past February, I built{' '}
-                    <a
-                        href="https://moodring.vercel.app"
-                        className="project-text-link"
-                    >
+                    <a href="https://moodring.me" className="project-text-link">
                         Mood Ring
                     </a>
                     . It examines a user’s recently played songs on Spotify
