@@ -3,16 +3,16 @@ import React from 'react';
 const Overview = () => {
     return (
         <>
-            <h1 className="dev-design">Full-Stack Developer</h1>
+            <h1 className="dev-design">Full-Stack Software Engineer</h1>
             <p className="info-detail">
-                Hi, I'm a software engineer currently working at the R&D Lab at
-                7-Eleven. I build responsive, professional, and creative web
-                applications using <span className="black">React</span>,{' '}
+                Hello. I'm a software engineer in the R&D Lab at 7-Eleven,
+                7NEXT. I'm interested in building creative and responsive
+                software using <span className="black">React</span>,{' '}
                 <span className="black">React Native</span>,{' '}
                 <span className="black">Redux</span>,{' '}
-                <span className="black">Figma</span>, and{' '}
-                <span className="black">Node.js</span>. Creative, efficient, and
-                design-oriented.
+                <span className="black">Figma</span>,{' '}
+                <span className="black">MondgoDB</span>, and{' '}
+                <span className="black">Node.js</span>.
             </p>
         </>
     );
