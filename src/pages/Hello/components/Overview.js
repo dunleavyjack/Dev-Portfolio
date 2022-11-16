@@ -11,8 +11,9 @@ const Overview = () => {
                 <span className="black">React Native</span>,{' '}
                 <span className="black">Redux</span>,{' '}
                 <span className="black">Figma</span>,{' '}
-                <span className="black">MondgoDB</span>, and{' '}
-                <span className="black">Node.js</span>.
+                <span className="black">MongoDB</span>, and{' '}
+                <span className="black">Node.js</span>. I'm currently based in
+                Atlanta.
             </p>
         </>
     );
