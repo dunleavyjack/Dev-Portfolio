@@ -1,6 +1,6 @@
 # Nice to meet you
 
-This portfolio, built with React, represents my work as a full-stack developer. Thanks for stopping by.
+This portfolio, built with React, talks about some of my work as a full-stack developer. Thanks for stopping by.
 
 ## Check it out
 
