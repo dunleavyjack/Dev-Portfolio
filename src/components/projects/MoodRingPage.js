@@ -191,7 +191,7 @@ const MoodRingPage = () => {
                 </p>
 
                 <h1 className="project-sub-about">
-                    Error Handeling Response Objects
+                    Error Handling Response Objects
                 </h1>
                 <p className="project-description">
                     I wrote <span className="black">try</span> and{' '}

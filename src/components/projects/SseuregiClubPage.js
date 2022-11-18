@@ -196,7 +196,7 @@ const SseuregiClubPage = () => {
                     it for all my blueprints and mockups.
                 </p>
                 <TextSpacer />
-                <h1 className="project-about">Challanges and Solutions 🚧</h1>
+                <h1 className="project-about">Challenges and Solutions 🚧</h1>
                 <h1 className="project-sub-about">
                     Getting to know the Kakao Maps API
                 </h1>

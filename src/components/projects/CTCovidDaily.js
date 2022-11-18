@@ -41,11 +41,12 @@ const CTCovidDaily = () => {
                     Because I was checking so often, the process of opening the
                     government website and navigating to the daily cases was a
                     bit time consuming. I wondered if I could find a more
-                    convienent way to display the information and I decided to
-                    make an iOS application. I no longer live in Connecticut,
-                    but my parents do and when checking the COVID numbers there
-                    I noticed the local governement had an free, open API for
-                    COVID data. I figured that would be a good place to start
+                    convienent way to display that information and I decided to
+                    make an iOS application for that purpose. I no longer live
+                    in Connecticut, but my parents do and when checking the
+                    COVID numbers there I noticed the local governement had a
+                    free, open API for COVID data. I figured that would be a
+                    good place to start
                 </p>
 
                 <TextSpacer />
@@ -86,7 +87,7 @@ const CTCovidDaily = () => {
                     This project was my first independent project using Swift,
                     which, unlike Javascript, is a{' '}
                     <span className="black">
-                        strong typed programming language
+                        strongly typed programming language
                     </span>
                     . It took a little getting used to, but I quickly learned to
                     appreciate the time saving benefits of type declaration.
@@ -102,8 +103,8 @@ const CTCovidDaily = () => {
                     offered an <span className="black">overal total</span>. In
                     order to find the daily change, which was the concept of
                     this application, I had to request the data for the current
-                    date as well as the previus day and then find the difference
-                    between the two.
+                    date as well as the previous day and then find the
+                    difference between the two.
                     <br />
                     <br />
                     While these kinds of functions are familiar to me in

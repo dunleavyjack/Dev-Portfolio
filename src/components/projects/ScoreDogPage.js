@@ -92,8 +92,8 @@ const ScoreDogPage = () => {
                 <TextSpacer />
                 <h1 className="project-about">Overall 📝</h1>
                 <p className="project-description">
-                    It was fun making something that intereacted with a website
-                    I use often. I think it was also good practice with DOM
+                    It was fun making something that interacted with a website I
+                    use often. I think it was also good practice with DOM
                     manipulation. Soon after this project, I made{' '}
                     <a
                         href="https://levelup.gitconnected.com/make-your-first-chrome-extension-with-javascript-7aa383db2b03"

@@ -22,7 +22,7 @@ const PlanLogic = () => {
                 <p className="project-description">
                     I joined a developer team at PlanLogic for{' '}
                     <span className="black">a three month project</span> to
-                    convert pseudocode written by their financial analyists into
+                    convert pseudocode written by their financial analysts into
                     JavaScript for their testing software.
                 </p>
                 <StaticProjectImage image={planlogic1} />
@@ -30,7 +30,7 @@ const PlanLogic = () => {
                     I would be given batches of 40 different pseudocode
                     calculations and it was my job to translate them into code.
                     Generally, each pseudocode would provide instructions for
-                    different percent rates to calcuate based on a user's
+                    different percent rates to calculate based on a user's
                     current balance with the company.
                     <br />
                     <br />

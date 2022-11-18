@@ -159,7 +159,7 @@ const ProductPages = () => {
                 <StaticProjectImage image={dasset9} />
                 <p className="project-description">
                     Since over 60% of users use the mobile version of the site,
-                    it important to take consideratinos for mobile design.
+                    it important to take considerations for mobile design.
                     Constantly thought the development of this project, I used{' '}
                     <span className="black">Chrome Dev Tools</span> to ensure
                     that the design and functionality remained accessible
@@ -175,7 +175,7 @@ const ProductPages = () => {
                     <br />
                     <span className="black">
                         This project helped me develop the problem solving
-                        techniques and design-thinking that are neccesary for
+                        techniques and design-thinking that are necessary for
                         building accessible, modern web pages and applications
                     </span>
                     .
