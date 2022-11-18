@@ -48,10 +48,10 @@ const IGFilterPage = () => {
                 <p className="project-description">
                     User's are prompted with a question:{' '}
                     <span className="green">
-                        Which 편의점 (conveniece store) are you?
+                        Which 편의점 (convenience store) are you?
                     </span>{' '}
                     When the user tabs the screen, the program shuffles through
-                    and displays the names of different stores. Eventurally, it
+                    and displays the names of different stores. Eventually, it
                     stops on a randomized selection to display.
                 </p>
                 <TextSpacer />
@@ -72,7 +72,7 @@ const IGFilterPage = () => {
                     <span className="black">screen tap</span> from the user and
                     once detected calls the function{' '}
                     <span className="black">start()</span>, which begins the
-                    quiz by shuffeling through the names of different convience
+                    quiz by shuffling through the names of different convenience
                     stores.
                 </p>
                 <CodeBox image={filtercode1} imageHeight="280px" />
@@ -92,7 +92,7 @@ const IGFilterPage = () => {
                     This was my first attempt using any kind of augmented
                     reality software and it was a lot of fun. The program and
                     the filter are both relatively simple, but it was enjoyable
-                    to make something that intereacted with a user in a 3D
+                    to make something that interacted with a user in a 3D
                     environment. This kind of interaction is something I hope to
                     explore more in the future.
                 </p>

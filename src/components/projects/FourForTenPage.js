@@ -29,7 +29,7 @@ const FourForTenPage = () => {
                     <br />
                     <br />
                     In South Korea, there is a well-known deal at almost every
-                    convience store known colloquially as the{' '}
+                    convenience store known colloquially as the{' '}
                     <span className="black">Four For Ten</span>. The deal is
                     simple, four beers for 10,000 Korean won. But, not every
                     beer is included in the deal (namely the extremely popular
@@ -80,7 +80,7 @@ const FourForTenPage = () => {
                 <h1 className="project-about">Overall ✨</h1>
                 <p className="project-description">
                     This was the first programming project I was ever able to
-                    properly share with others and the whole expereince was a
+                    properly share with others and the whole experience was a
                     lot of fun. These days, I focus more on JavaScript but in
                     the future, I would be interested in using Python again. In
                     the scope of Web Development, I would like to use it for a
