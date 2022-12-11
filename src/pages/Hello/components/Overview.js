@@ -13,7 +13,7 @@ const Overview = () => {
                 <span className="black">Figma</span>,{' '}
                 <span className="black">MongoDB</span>, and{' '}
                 <span className="black">Node.js</span>. I'm currently based in
-                Atlanta.
+                Dallas.
             </p>
         </>
     );
