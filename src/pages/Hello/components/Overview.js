@@ -5,12 +5,12 @@ const Overview = () => {
         <>
             <h1 className="dev-design">Full-Stack Software Engineer</h1>
             <p className="info-detail">
-                Hello. I'm a software engineer in the R&D Lab at 7-Eleven,
-                7NEXT. I'm interested in building creative and responsive
-                software using <span className="black">React</span>,{' '}
+                Hello. I'm a software engineer at 7-Eleven's Digital R&D Lab,
+                7NEXT. I'm interested in building interactive and creative
+                software using <span className="black">React</span>,{' / '}
                 <span className="black">React Native</span>,{' '}
                 <span className="black">Redux</span>,{' '}
-                <span className="black">Figma</span>,{' '}
+                <span className="black">Native Android</span>,{' '}
                 <span className="black">MongoDB</span>, and{' '}
                 <span className="black">Node.js</span>. I'm currently based in
                 Dallas.
