@@ -13,7 +13,7 @@ const HomePage = () => {
                 <Overview />
                 <PersonalProjects />
                 <SeeMore />
-                <Skills />
+                {/* <Skills /> */}
             </div>
         </div>
     );
